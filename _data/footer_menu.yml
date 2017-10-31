@@ -1,10 +1,10 @@
 - title: "About"
   link: "/about"
-- title: Sponsorship
-  link: /sponsoring/
-- title: Code of Conduct
-  link: /code-of-conduct/
-- title: Imprint
-  link: /imprint/
-- title: Accessibility
-  link: /accessibility/
+- title: "Sponsorship"
+  link: "/sponsoring/"
+- title: "Code of Conduct"
+  link: "/code-of-conduct/"
+- title: "Imprint"
+  link: "/imprint/"
+# - title: "Accessibility"
+#   link: "/accessibility/"
