@@ -4,7 +4,7 @@ bodytags: with-hero
 ---
 <div class="hero">
   <section>
-    <h1>RustFest Paris 2017</h1>
+    <h1>RustFest {{site.location.city}} {{site.dates.year}}</h1>
     <p>Let's meet again at a conference dedicated to the Rust programming language</p>
 
     <div class="itemgroup">
@@ -12,16 +12,14 @@ bodytags: with-hero
       <div>
         <p class="desc">Talks</p>
         <p>
-          Someday,<br/>
-          Spring, 2018
+          {{site.dates.talks}}, {{site.dates.year}}
         </p>
       </div>
 
       <div>
         <p class="desc">Workshops</p>
         <p>
-          Someday,<br/>
-          Spring, 2018
+          {{site.dates.workshops}}, {{site.dates.year}}
         </p>
       </div>
 
@@ -29,8 +27,8 @@ bodytags: with-hero
         <p class="desc">Location</p>
         <p>
           <address title="Someplace">
-            <a href="/location/">Venue Pending</a><br />
-            Paris, France<br/>
+            <a href="/location/">{{site.location.venue}}</a><br />
+            {{site.location.city}}, {{site.location.country}}<br/>
           </address>
         </p>
       </div>
