@@ -1,0 +1,41 @@
+title: RustFest.EU
+email: team@rustfest.eu
+description: > # this means to ignore newlines until "baseurl:"
+  A Community Rust conference for the Rusty folks all around Europe. Mark your
+  calendars, September 30th!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.rustfest.eu" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+gems:
+  - jekyll-redirect-from
+
+# Page Settings
+owner: "asquera Event UG"
+permalink: "/blog/:title"
+
+# Speaker/Workshop session landing pages
+collections:
+  sessions:
+    permalink: /:collection/:path
+    output: true
+
+# social stuff:
+metaKeywords: "rust, conf, rustfest, rustfesteu, conference, programming language, zurich"
+twitter_username: rustfest
+github_username:  rustfesteu
+facebook_username:  rustfest
+socialImageSrcTwitter: "/assets/favicons/logo.png"
+socialImageSrcFacebook: "/assets/favicons/logo.png"
+
+
+# mailinglist
+mailchimp:
+  server: asquera.us13.list-manage.com
+  user: 7945052bc1ecc432bff53c079
+  id: 5929ff51d6
+
+exclude: ["/vendor"]

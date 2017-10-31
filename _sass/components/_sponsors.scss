@@ -1,0 +1,52 @@
+#sponsors {
+  @include linear-gradient(to right, $brand_purple, $brand_blue);
+}
+.sponsors {
+  color: white;
+  margin: 0;
+  font-size: 0.9em;
+
+  padding: {
+    top: 2em;
+    bottom: 2em;
+  };
+  img {
+    min-width: 20vw;
+    max-height: 25vh;
+    max-width: 25vw;
+  }
+  ul {
+    list-style: none;
+
+    @include display(flex);
+    @include align-items(center);
+    @include flex-direction(row);
+    @include justify-content(space-around);
+    @include flex-wrap(wrap);
+
+    &.primary {
+      > li {
+        width: 45%;
+        font-size: 0.8em;
+        img {
+          width: 100%;
+          max-height: unset;
+          max-width: unset;
+        }
+
+      }
+    }
+    > li {
+      margin: 1em;
+    }
+  }
+
+  .button {
+    margin: 2.5em 1.5em 0 0;
+
+    &:hover {
+      background: transparent;
+      border-color: #fff;
+    }
+  }
+}

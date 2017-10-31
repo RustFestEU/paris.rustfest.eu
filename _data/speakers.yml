@@ -1,0 +1,298 @@
+---
+andrea:
+  name: Andrea Lattuada
+  nick: utaal
+  thumbnailUrl: andrea.jpg
+  links:
+    - icon: github
+      link:  https://github.com/utaal
+    - icon: twitter
+      link: https://twitter.com/utaal
+    - icon: website
+      link: http://utaal.github.io/
+  desc: |
+    I'm a PhD student and Research assistant in the Systems Group, Dept. of Computer Science at ETH Zürich. I have past industry experience with type-heavy programming languages and now work with rust on safe, reliable, distributed data processing.
+anselm:
+  name: Anselm Eickhoff
+  nick: aeickhoff
+  thumbnailUrl: anselm.jpg
+  links:
+    - icon: github
+      link: https://github.com/aeickhoff
+  desc: |
+    Self-taught hacker and CS student from Germany. Got the crazy idea to build Citybound - a new, large-scale city simulation game and engine, on my own. I'm busy plowing through all the custom technology that needs to be invented and implemented for that, all of which I write in Rust.
+niklas:
+  name: Niklas Adolfsson
+  nick: niklasad1
+  thumbnailUrl: niklas.jpg
+  links:
+    - icon: github
+      link: https://github.com/niklasad1
+    - icon: twitter
+      link: https://twitter.com/niklasad1
+  desc: |
+    Niklas Adolfsson is embedded software developer at Cybercom in Sweden. He received a B.S. degree at in Electrical at University of Borås and is currently pursing a MSc. in Computer Science at Chalmers University. He is also a contributor to Tock and has worked as a dependability engineer at SP Technical Research Institute of Sweden.
+mohammed:
+  name: Mohammed Makhlouf
+  nick: msmakhlouf
+  thumbnailUrl: mohammed.jpg
+  links:
+    - icon: github
+      link: https://github.com/msmakhlouf
+    - icon: twitter
+      link: https://twitter.com/msmakhlouf
+    - icon: website
+      link: http://blog.mak.my
+  desc: |
+    Mohammed Makhlouf is a experienced Software / Security Engineer, with a passionate interest in machine learning, security and large scale distributed systems. He is the Threat Intelligence Manager at the National CERT of Qatar and is based in Qatar. He infrequently blogs at: http://blog.mak.my
+lislis:
+  name: Lisa
+  nick: lislis
+  thumbnailUrl: lislis.jpg
+  desc: |
+    Lisa works in the product team at Travis CI. When not writing frontend code she learns Clojure and Rust, makes games and boycotts centralized social media.
+  links:
+    - icon: rust
+      link: "https://users.rust-lang.org/users/lislis/activity"
+    - icon: github
+      link: https://github.com/lislis
+    - icon: website
+      link: https://lislis.de/
+jorge:
+  name: Jorge Aparicio
+  nick: japaric
+  thumbnailUrl: jorge.jpg
+  links:
+    - icon: github
+      link: https://github.com/japaric
+    - icon: twitter
+      link: https://twitter.com/japaricious
+    - icon: website
+      link: http://blog.japaric.io/
+  desc: |
+    Jorge Aparicio has been a Rustacean since Rust 0.9 (early 2014) and since that time he has many several contributions to the compiler, the standard libraries and the crate ecosystem. With his background in Mechatronics Jorge has been tackling, for more than one year now, the task of making Rust easy to use for embedded development with great success. He's the author and maintainer of several crates and tools core to the ARM Cortex-M ecosystem.
+alex:
+  name: Alex Burka
+  nick: durka
+  thumbnailUrl: alex.jpg
+  links:
+    - icon: github
+      link: https://github.com/durka
+    - icon: twitter
+      link: https://twitter.com/durka42
+    - icon: website
+      link: https://alexburka.com/
+  desc: |
+    Alex is a robotics graduate student at the University of Pennsylvania. He got into Rust by writing his research software (a hardware controller and web interface for a sensor suite), and continues to spend too much of his free time writing macros.
+geoffroy:
+  name: Geoffroy Couprie
+  nick: geal
+  thumbnailUrl: geoffroy.jpg
+  links:
+    - icon: rust
+      title: "geal on users.rust-lang.org"
+      link: "https://users.rust-lang.org/users/geal/activity"
+    - icon: github
+      title: Geal
+      link: "https://github.com/Geal"
+    - icon: website
+      link: "http://geoffroycouprie.com/"
+  desc: |
+    Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management.
+pierre:
+  name: Pierre Krieger
+  thumbnailUrl: pierre.jpg
+  desc: |
+    After coding in C++ for about ten years, Pierre switched to Rust in 2014 and has been maintaining several game-development-related libraries. He specializes in graphics programming.
+  links:
+    - icon: github
+      link: https://github.com/tomaka
+    - icon: twitter
+      link: https://twitter.com/tomaka17
+llogiq:
+  name: Andre 'llogiq' Bogus
+  thumbnailUrl: llogiq.jpg
+  links:
+    - icon: website
+      link: https://llogiq.github.io/
+    - icon: github
+      link: https://github.com/llogiq
+    - icon: twitter
+      link: https://twitter.com/llogiq
+  desc: |
+    The quintessential Rust bard Musician by heart, programmer by trade, Rustacean, Lint maven, Rust Tools peer, nags weekly on rust-users and reddit.
+elisabeth:
+  name: Élisabeth Henry
+  nick: lise-henry
+  thumbnailUrl: "elisabeth.jpg"
+  links:
+    - icon: github
+      link: https://github.com/lise-henry
+    - icon: website
+      link: http://lise-henry.github.io/
+  desc: |
+    I used to work as a programmer, but I eventually gave up because I couldn't find a job, and ended I trying to make a living selling fantasy novels. Maybe this last fact shows that I'm not a great programmer (though there might be other factors in play). I love Rust because it makes me feel more confident about the code I write, and the strict compiler compensates for my lack of discipline.
+ashley:
+  name: Ashley Williams
+  nick: ag_dubs
+  thumbnailUrl: ashley.jpg
+  links:
+    - icon: rust
+      link: https://users.rust-lang.org/users/ag_dubs/activity
+    - icon: github
+      link: https://github.com/ashleygwilliams
+    - icon: twitter
+      link: https://twitter.com/ag_dubs
+  desc: |
+    Ashley is a Services Engineer at npm, Inc. She also represents the Individual Membership on the Node.js Foundation Board of Directors. In her spare time, she contributes to the Rust Programming Language and its package manager, Cargo. She is also a founding organizer of the NodeTogether and RustBridge educational initiatives for underrepresented persons in tech.
+fedor:
+  name: Fedor Logachev
+  nick: not-fl3
+  thumbnailUrl: "fedor.jpg"
+  desc: |
+    Game programmer from Saint-Petersburg, Russia. Worked on Unity3d games mostly.
+  links:
+    - icon: github
+      link: https://github.com/not-fl3
+    - icon: twitter
+      link: https://twitter.com/BringerShar
+igor:
+  name: Igor Matuszewski
+  nick: Xanewok
+  thumbnailUrl: igor.jpg
+  desc: |
+    Igor is studying Computer Science at the University of Warsaw, Poland. Having worked on a AAA game and various smaller ones, he grew tired of the repetitiveness of the process and started a journey to find a language that would aid in building better abstractions. He discovered Rust and decided to help further the IDE story, so the development process would be more enjoyable. He was accepted onto the Google Summer of Code 2017 as a student and has been working to improve the RLS and IDE support.
+  links:
+    - icon: github
+      link: https://github.com/Xanewok
+    - icon: website
+      link: https://xanewok.github.io/
+thomas:
+  name: Thomas Wickham
+  thumbnailUrl: thomas.jpg
+  desc: |
+    Hey I'm Thomas, consultant by day, and open-source coder by night. I work at OCTO Technology, a consulting firm specialized in Agile development and Software Craftmanship. I am passionate about empowering people in their daily lives and helping them undertaking their Why.
+  links:
+    - icon: github
+      link: https://github.com/mackwic
+    - icon: twitter
+      link: https://twitter.com/mackwic
+acrichto:
+  name: Alex Crichton
+  nick: alexcrichton
+  thumbnailUrl: acrichto.jpg
+  desc: |
+    Alex is a member of the Rust Core Team who has worked at Mozilla on Rust for the past four years. He is also a member of the Tokio Core Team, one of the primary authors of Cargo, helps maintain the standard library, and likes to ensure that engine of Rust never stops.
+  links:
+    - icon: github
+      link: https://github.com/alexcrichton
+felix:
+  name: "Felix Klock"
+  nick: "pnkfelix"
+  desc: "Felix Klock is a research engineer at Mozilla, where he works on the Rust compiler, runtime libraries, and language design. He previously worked on the ActionScript Virtual Machine for the Adobe Flash runtime. Felix obtained his PhD in Computer Science from Northeastern University, and is also one of the developers of the Larceny Scheme language runtime."
+  thumbnailUrl: felix.jpg
+  links:
+    - icon: "twitter"
+      title: "pnkfelix"
+      link: "https://twitter.com/pnkfelix"
+    - icon: "github"
+      title: "pnkfelix"
+      link: "https://github.com/pnkfelix"
+parity-tomasz:
+  name: "Tomasz Drwiega"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity_black.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/tomusdrw"
+parity-jack:
+  name:
+  desc: "A member of [Parity](http://parity.io/)."
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+parity-robert:
+  name: "Robert Habermeier"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-robert.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/rphmeier"
+parity-fredrik:
+  name: "Fredrik Harrysson"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-fredrik.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/folsen"
+parity-marek:
+  name: "Marek Kotewicz"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-marek.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+parity-nikolay:
+  name: "Nikolay Volf"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity_black.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/NikVolf"
+parity-maciej:
+  name: "Maciej Hirsz"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-maciej.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/maciejhirsz"
+parity-jack:
+  name: "Jack Fransham"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity_black.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+yann:
+  name: "Yann Leretaille"
+  desc: "Yann Leretaille is a French-German tech entrepreneur and think-tank founder. He is the CTO and a co-founder of 1aim, a startup aimed at redefining how buildings work, as well as how we relate to the objects around us, and the Good Technology Collective. The collective advocates for rational data collection, greater public awareness of data gathering and use, and the importance of reframing the narrative of a future society centered around Internet of Things (IoT) to one based around the concept of intelligence by design."
+  thumbnailUrl: yann.jpg
+andrew:
+  name: "Andrew Hobden"
+  desc: "RustFest Organizing team member, developer at Asquera."
+  thumbnailUrl: andrew.jpg
+  links:
+    - icon: "github"
+      link: "http://github.com/hoverbear/"
+    - icon: "twitter"
+      link: "https://twitter.com/andrewhobden"
+    - icon: "website"
+      link: "https://hoverbear.org/"
+amit:
+  name: "Amit Levy"
+  desc: "A seventh year Computer Science PhD student at Stanford University in the Secure Computer Systems group and the Stanford Information Networks Group. He's currently working on a new secure operating system for embedded devices called TockOS. He's generally interested in distributed systems, operating systems, security, privacy, programming languages and good will towards people."
+  thumbnailUrl: amit.jpg
+  links:
+    - icon: "github"
+      link: "https://github.com/alevy"
+    - icon: "website"
+      link: "http://www.amitlevy.com/"
+james:
+  name: "James Munns"
+  desc: "James Munns is an Embedded Engineer who has worked on systems ranging from Safety Critical Avionics to Rapidly Prototyped IoT systems. During the day James works at Geeny in Berlin, developing frameworks and tools for IoT Embedded Developers."
+  thumbnailUrl: james.jpg
+  links:
+    - icon: "github"
+      link: "https://github.com/jamesmunns"
+    - icon: "website"
+      link: "https://jamesmunns.com/"

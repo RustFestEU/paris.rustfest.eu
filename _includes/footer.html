@@ -1,0 +1,12 @@
+<footer>
+  <section>
+    <span class="copyright">© 2016-2017, <a href="/imprint/">{{site.owner}}</a></span>
+    <ul class="footer-links">
+      {% for item in site.data.footer_menu %}
+        <li>
+          <a href="{{item.link}}">{{item.title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</footer>

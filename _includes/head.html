@@ -1,0 +1,53 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="author" content="{{ site.owner }}">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ site.metaKeywords }}">
+  <meta name="google-site-verification" content="{{ site.siteVerification }}" />
+  <link rel="canonical" href="{{ site.url }}">
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="{{ page.socialTwitterCardType | default: "summary" }}" />
+  <meta name="twitter:site" content="{{ site.twitter_username }}" />
+  <meta name="twitter:title" content="{% if page.speaker %}{{ page.speaker }} - {{ page.title }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+
+  {% if page.socialImageSrc %}
+    <meta name="twitter:image:src" content="{{ page.socialImageSrc | prepend: site.baseurl | prepend: site.url }}?a" />
+  {% else %}
+    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}?b" />
+  {% endif %}
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:title" content="{% if page.speaker %}{{ page.speaker }} - {{ page.title }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+  {% if page.socialImageSrc %}
+    <meta property="og:image" content="{{ page.socialImageSrc | prepend: site.baseurl | prepend: site.url }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}" />
+  {% endif %}
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+
+  <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ "/img/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/img/favicons/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ "/img/favicons/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ "/img/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ "/img/favicons/apple-touch-icon-76x76.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ "/img/favicons/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ "/img/favicons/apple-touch-icon-60x60.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ "/img/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-196x196.png" sizes="196x196" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-160x160.png" sizes="160x160" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-96x96.png" sizes="96x96" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-32x32.png" sizes="32x32" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-16x16.png" sizes="16x16" | prepend: site.baseurl }}">
+  <meta name="msapplication-TileImage" content="{{ "/img/favicons/mstile-144x144.png" | prepend: site.baseurl }}">
+  <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
+
+  <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">

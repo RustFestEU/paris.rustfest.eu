@@ -1,0 +1,32 @@
+<header class="navigation" role="banner">
+  <section class="itemgroup">
+    <a href="/" class="logo" title="RustFest">
+      {% include icons/logo.svg %}
+      <span class="site-title">
+        RustFest
+      </span>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        {% for item in site.data.header_menu %}
+        <li class="nav-link">
+          <a href="{{item.link}}">{{item.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="social-bar">
+      <ul>
+        <li>
+          <a href="https://twitter.com/{{ site.twitter_username }}">{% include icons/twitter.svg %}</a>
+        </li>
+        <li>
+          <a href="https://github.com/{{ site.github_username }}">{% include icons/github.svg %}</a>
+        </li>
+        <li>
+          <a href="https://facebook.com/{{ site.facebook_username }}">{% include icons/facebook.svg %}</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</header>
