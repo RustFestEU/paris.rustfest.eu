@@ -34,6 +34,9 @@ collections:
   speakers:
     permalink: /:collection/:path
     output: true
+  organizers:
+    permalink: /:collection/:path
+    output: true
 
 defaults:
   - scope:
@@ -44,6 +47,10 @@ defaults:
       type: speakers
     values:
       layout: speaker
+  - scope:
+      type: organizers
+    values:
+      layout: organizer
 
 
 # social stuff:
