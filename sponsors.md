@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /sponsoring/
+permalink: /sponsors/index.html
 title: Sponsoring
 ---
 
@@ -12,7 +12,7 @@ title: Sponsoring
       RustFest wouldn't be possible without the generous support of these fine folks:
     </p>
       <ul class="primary">
-        {% for sponsor in site.data.sponsors %}
+        {% for sponsor in site.sponsors %}
           {% if sponsor.group == 'sponsor' %}
             <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.logoName}}" /></a></li>
             {% if sponsor.desc %}
@@ -27,7 +27,7 @@ title: Sponsoring
     <h2>Partners</h2>
     <hr />
       <ul>
-        {% for sponsor in site.data.sponsors %}
+        {% for sponsor in site.sponsors %}
           {% if sponsor.group == 'partner' %}
             <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.logoName}}" /></a></li>
           {% endif %}
@@ -40,7 +40,7 @@ title: Sponsoring
     <h2>Venues</h2>
     <hr />
       <ul>
-        {% for sponsor in site.data.sponsors %}
+        {% for sponsor in site.sponsors %}
           {% if sponsor.group == 'venue' %}
             <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.logoName}}" /></a></li>
           {% endif %}
@@ -52,7 +52,7 @@ title: Sponsoring
     <h2>Media Partner</h2>
     <hr />
       <ul>
-        {% for sponsor in site.data.sponsors %}
+        {% for sponsor in site.sponsors %}
           {% if sponsor.group == 'media' %}
             <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.logoName}}" /></a></li>
           {% endif %}

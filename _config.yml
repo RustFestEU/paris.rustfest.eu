@@ -37,6 +37,10 @@ collections:
   organizers:
     permalink: /:collection/:path
     output: true
+  sponsors:
+    permalink: /:collection/:path
+    # They have their own link.
+    output: false
 
 defaults:
   - scope:
@@ -51,6 +55,10 @@ defaults:
       type: organizers
     values:
       layout: organizer
+  - scope:
+      type: sponsors
+    values:
+      layout: sponsor
 
 
 # social stuff:
