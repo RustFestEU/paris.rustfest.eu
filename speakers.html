@@ -1,0 +1,10 @@
+---
+title: Speakers
+layout: default
+permalink: /speakers/index.html
+---
+
+{% for speaker in site.speakers %}
+  <a href="{{ speaker.url }}"><h1>{{ speaker.name }}</h1><a>
+  <p>{{ speaker.content }}</p>
+{% endfor %}

@@ -31,6 +31,20 @@ collections:
   sessions:
     permalink: /:collection/:path
     output: true
+  speakers:
+    permalink: /:collection/:path
+    output: true
+
+defaults:
+  - scope:
+      type: sessions
+    values:
+      layout: session
+  - scope:
+      type: speakers
+    values:
+      layout: speaker
+
 
 # social stuff:
 metaKeywords: "rust, conf, rustfest, rustfesteu, conference, programming language, zurich"
