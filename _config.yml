@@ -39,6 +39,10 @@ collections:
     permalink: /:collection/:path
     # They have their own link.
     output: false
+  past_events:
+    permalink: /:collection/:path
+    # They have their own website!
+    output: false
 
 defaults:
   - scope:
@@ -49,14 +53,6 @@ defaults:
       type: speakers
     values:
       layout: speaker
-  - scope:
-      type: organizers
-    values:
-      layout: organizer
-  - scope:
-      type: sponsors
-    values:
-      layout: sponsor
 
 # mailinglist
 mailchimp:

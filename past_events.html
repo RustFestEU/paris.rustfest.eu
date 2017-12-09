@@ -1,0 +1,13 @@
+---
+title: Past Events
+layout: default
+permalink: /past_events/index.html
+---
+
+{% for event in site.past_events %}
+  <a href="{{ event.link }}"><h1>{{ event.year }} - {{ event.city }}</h1><a>
+  {% if event.videos %}<a href="{{ event.videos }}"><h2>See videos</h2></a>{% endif %}
+  <p>Thanks to {{ event.sponsors | array_to_sentence_string }} for their support.</p>
+  {% if event.image %}<img src="/assets/past_events/{{ event.slug }}.png">{% endif %}
+  <p>{{ event.content }}</p>
+{% endfor %}

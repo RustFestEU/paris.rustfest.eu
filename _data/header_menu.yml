@@ -1,14 +1,8 @@
-- title: "News"
-  link: "http://blog.rustfest.eu/"
-# - title: "Schedule"
-#   link: "/schedule/"
-# - title: "Impl Days"
-#   link: "/impl_days/"
-# - title: "Location"
-#   link: "/location/"
-- title: "Zurich"
-  link: "http://zurich.rustfest.eu/"
-- title: "Kyiv"
-  link: "http://2017.rustfest.eu/"
-- title: "Berlin"
-  link: "http://2016.rustfest.eu/"
+- title: News
+  link: http://blog.rustfest.eu/
+# - title: Schedule
+#   link: /schedule/
+- title: Location
+  link: /location/
+- title: Past Events
+  link: /past_events/
