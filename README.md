@@ -1,3 +1,12 @@
+# Adding an Organizer
+
+Create a file by the name of `_organizers/nick.md` where `nick` is the nick of the organizer. Use the options detailed in `_organizers/_schema.md` to configure the details.
+
+Then, save their image to `assets/organizers/nick.png`. It should be `660x660` at most. You can use this to configure it:
+
+```bash
+make images
+```
 # Social cards
 
 After merging (or checking out locally) you can go to **<url>/meta/twitter-card-generator/** to see a list of cards showing up. You may edit the _layout file for different descriptions (there's a JSON object), and to change the visuals (e.g. the SVG). 
