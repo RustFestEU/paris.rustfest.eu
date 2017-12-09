@@ -5,7 +5,7 @@
 <div class="popout">
   <section>
       <h1>{{talk.title}}</h1>
-      <h2>by {% for speaker in talk.speakers %}{{ site.data.speakers[speaker].name }} {% endfor %}</h2>
+      <h2>by {{ site.speakers | where_exp: "speaker", "talk.speakers contains speaker.slug" | map "speaker", "name" | array_to_sentence_string }}</h2>
       {% if page.room %}<h2>Room: {{page.room}}</h2>{% endif %}
   </section>
 </div>
@@ -16,15 +16,15 @@
       <li>
         <div class="wrap">
             {% for name in talk.speakers %}
-              {% assign speaker = site.data.speakers[name] %}
+              {% assign speaker = site.speakers[name] %}
 
               <div id="{{ speaker.name | slugify }}" class="speaker">
                 <div class="portrait">
-                  <img src="/assets/zurich/speakers/{{speaker.thumbnailUrl}}" />
+                  <img src="/assets/zurich/speakers/{{speaker.image}}" />
                 </div>
                 <div class="desc">
                   <h3 class="name">{{speaker.name}}</h3>
-                  {{speaker.desc | markdownify }}
+                  {{speaker.content | markdownify }}
 
                   <ul class="links">
                     {% for link in speaker.links %}
@@ -35,7 +35,7 @@
               </div>
             {% endfor %}
           <div class="abstract">
-            {{talk.desc | markdownify}}
+            {{talk.content | markdownify}}
 
             {% if talk.video %}
             <p><a href="{{talk.video}}">Watch the video</a></p>

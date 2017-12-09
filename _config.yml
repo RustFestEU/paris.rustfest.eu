@@ -31,6 +31,36 @@ collections:
   sessions:
     permalink: /:collection/:path
     output: true
+  speakers:
+    permalink: /:collection/:path
+    output: true
+  organizers:
+    permalink: /:collection/:path
+    # We're all on the about page!
+    output: false
+  sponsors:
+    permalink: /:collection/:path
+    # They have their own link.
+    output: false
+
+defaults:
+  - scope:
+      type: sessions
+    values:
+      layout: session
+  - scope:
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      type: organizers
+    values:
+      layout: organizer
+  - scope:
+      type: sponsors
+    values:
+      layout: sponsor
+
 
 # social stuff:
 metaKeywords: "rust, conf, rustfest, rustfesteu, conference, programming language, zurich"
