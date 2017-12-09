@@ -7,6 +7,42 @@ Then, save their image to `assets/organizers/nick.png`. It should be `660x660` a
 ```bash
 make images
 ```
+
+The final PR should include:
+
+* `_organizers/nick.md`
+* `assets/organizers/nick.png`
+
+# Adding a Sponsor
+
+You can either ask them the details from `_sponsors/_schema.md` and fill it out for them, ask them to fill it out, or if they'd like, have them make a PR.
+
+Ask them for an SVG version of their logo.
+
+The final PR should incude:
+
+* `_sponsors/company.md`
+* `assets/sponsors/company.svg || assets/sponsors/company.png`
+
+# Adding a Speaker
+
+You can either ask them the details from `_speakers/_schema.md` and fill it out for them, ask them to fill it out, or if they'd like, have them make a PR. Their `nick` should either be their nickname or their first initial then last name.
+
+Ask them for a PNG image which they'd like to be shown publicly.
+
+The final PR should include:
+
+* `_speakers/nick.md`
+* `assets/speakers/nick.png`
+
+# Adding a Session
+
+Create a file by the name of `_sessions/snake-case-short-name.md`. Use the options detailed in `_sessions/_schema.md` to configure the details.
+
+The final PR should include:
+
+* `_sessions/nick.md`
+
 # Social cards
 
 After merging (or checking out locally) you can go to **<url>/meta/twitter-card-generator/** to see a list of cards showing up. You may edit the _layout file for different descriptions (there's a JSON object), and to change the visuals (e.g. the SVG). 
