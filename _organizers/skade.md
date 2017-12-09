@@ -1,15 +1,10 @@
 ---
-name: "Florian Gilcher"
-nick: "skade"
-thumbnailUrl: florian.png
+name: Florian Gilcher
 links:
-  - icon: "twitter"
-    title: "Argorak"
-    link: "https://twitter.com/Argorak"
-  - icon: "github"
-    title: "skade"
-    link: "https://github.com/skade"
-  - icon: "website"
-    title: "asquera.de"
-    link: "http://asquera.de/"
+  - icon: twitter
+    link: https://twitter.com/Argorak
+  - icon: github
+    link: https://github.com/skade
+  - icon: website
+    link: http://asquera.de/
 ---

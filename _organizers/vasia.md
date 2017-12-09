@@ -1,12 +1,8 @@
 ---
-name: "Vasia Kalavri"
-nick: "vasia"
-thumbnailUrl: vasia.png
+name: Vasia Kalavri
 links:
-  - icon: "twitter"
-    title: "vkalavri"
-    link: "https://twitter.com/vkalavri"
-  - icon: "github"
-    title: "vasia"
-    link: "https://github.com/vasia"
+  - icon: twitter
+    link: https://twitter.com/vkalavri
+  - icon: github
+    link: https://github.com/vasia
 ---

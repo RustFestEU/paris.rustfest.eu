@@ -1,13 +1,9 @@
 ---
-name: "Katharina Hößel"
-nick: "katsel"
-thumbnailUrl: katharina.jpg
+name: Katharina Hößel
 alumn: true
 links:
-  - icon: "twitter"
-    title: "_katsel"
-    link: "https://twitter.com/_katsel"
-  - icon: "github"
-    title: "katsel"
-    link: "https://github.com/katsel"
+  - icon: twitter
+    link: https://twitter.com/_katsel
+  - icon: github
+    link: https://github.com/katsel
 ---

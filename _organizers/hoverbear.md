@@ -1,17 +1,12 @@
 ---
-name: "Andrew Hobden"
-nick: "hoverbear"
-thumbnailUrl: andrew.jpg
+name: Andrew Hobden
 links:
-  - icon: "twitter"
-    title: "andrewhobden"
-    link: "https://twitter.com/AndrewHobden"
-  - icon: "github"
-    title: "hoverbear"
-    link: "https://github.com/Hoverbear"
-  - icon: "website"
-    title: "hoverbear.org"
-    link: "https://hoverbear.org"
+  - icon: twitter
+    link: https://twitter.com/AndrewHobden
+  - icon: github
+    link: https://github.com/Hoverbear
+  - icon: website
+    link: https://hoverbear.org
 ---
 
 Explorer of distributed systems.

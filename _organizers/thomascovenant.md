@@ -1,9 +1,6 @@
 ---
-name: "Dina-Solveig Jalkanen"
-nick: "thomascovenant"
-thumbnailUrl: dina.jpg
+name: Dina-Solveig Jalkanen
 links:
-  - icon: "website"
-    title: "Tech Inc Wiki"
-    link: "https://wiki.techinc.nl/index.php/User:Thomascovenant"
+  - icon: website
+    link: https://wiki.techinc.nl/index.php/User:Thomascovenant
 ---

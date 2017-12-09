@@ -1,12 +1,8 @@
 ---
-name: "Sebastian Wicki"
-nick: "gandro"
-thumbnailUrl: sebastian.png
+name: Sebastian Wicki
 links:
-  - icon: "twitter"
-    title: "gandro23"
-    link: "https://twitter.com/gandro23"
-  - icon: "github"
-    title: "gandro"
-    link: "https://github.com/gandro"
+  - icon: twitter
+    link: https://twitter.com/gandro23
+  - icon: github
+    link: https://github.com/gandro
 ---

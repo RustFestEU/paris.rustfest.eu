@@ -1,17 +1,11 @@
 ---
-name: "Emma Tracey"
-nick: "emma"
-title: "HoneyPot.IO"
-thumbnailUrl: emma.jpg
+name: Emma Tracey
 alumn: true
 links:
-  - icon: "github"
-    title: "emmalou"
-    link: "https://github.com/emmalou"
-  - icon: "twitter"
-    title: "honeypotio"
-    link: "https://twitter.com/honeypotio"
-  - icon: "website"
-    title: "Honeypot.io"
-    link: "https://Honeypot.IO/"
+  - icon: github
+    link: https://github.com/emmalou
+  - icon: twitter
+    link: https://twitter.com/honeypotio
+  - icon: website
+    link: https://Honeypot.IO/
 ---

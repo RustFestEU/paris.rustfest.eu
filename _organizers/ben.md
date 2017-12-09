@@ -1,15 +1,10 @@
 ---
-name: "Benjamin Kampmann"
-nick: "Ben"
-thumbnailUrl: ben.jpg
+name: Benjamin Kampmann
 links:
-  - icon: "twitter"
-    title: "gnunicornBen"
-    link: "https://twitter.com/gnunicornBen"
-  - icon: "github"
-    title: "gnunicorn"
-    link: "https://github.com/gnunicorn"
-  - icon: "website"
-    title: "create-build-execute.com"
-    link: "http://www.create-build-execute.com/"
+  - icon: twitter
+    link: https://twitter.com/gnunicornBen
+  - icon: github
+    link: https://github.com/gnunicorn
+  - icon: website
+    link: http://www.create-build-execute.com/
 ---

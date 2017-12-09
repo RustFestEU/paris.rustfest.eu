@@ -1,7 +1,6 @@
 ---
 name: You
 nick: someone
-image: demo.jpg
 links:
     - icon: github
       link:  https://github.com/
