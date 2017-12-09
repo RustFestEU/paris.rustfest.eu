@@ -1,4 +1,20 @@
-# Adding an Organizer
+# Rustfest.eu
+
+This website is a `jekyll` site. You're welcome to fork and use this for your conference. We've tried to make it reasonably generic.
+
+Pull requests are welcome, and if you find any mistakes please just open an issue.
+
+## Developing for the site
+
+* In general favor convention over customization. We want to organize a conference, not maintain a giant mess of options.
+* We strive to make the site accessible. Prefer static to dynamic, use `alt` tags on images.
+    + Further, consider reviewing changes in `lynx` or another console browser. Our visitors **do** use these, and we respect them.
+* We make use of 'collections' to manage our data. In general you will find `_collection/_schema.md` which will describe the options of a collection. Some collections have assets which will be in `assets/collection/*`.
+* We can't use most Jekyll plugins since we're hosted on Github pages.
+
+# Common tasks
+
+## Adding an Organizer
 
 Create a file by the name of `_organizers/nick.md` where `nick` is the nick of the organizer. Use the options detailed in `_organizers/_schema.md` to configure the details.
 
@@ -13,7 +29,7 @@ The final PR should include:
 * `_organizers/nick.md`
 * `assets/organizers/nick.png`
 
-# Adding a Sponsor
+## Adding a Sponsor
 
 You can either ask them the details from `_sponsors/_schema.md` and fill it out for them, ask them to fill it out, or if they'd like, have them make a PR.
 
@@ -24,7 +40,7 @@ The final PR should incude:
 * `_sponsors/company.md`
 * `assets/sponsors/company.svg || assets/sponsors/company.png`
 
-# Adding a Speaker
+## Adding a Speaker
 
 You can either ask them the details from `_speakers/_schema.md` and fill it out for them, ask them to fill it out, or if they'd like, have them make a PR. Their `nick` should either be their nickname or their first initial then last name.
 
@@ -35,13 +51,36 @@ The final PR should include:
 * `_speakers/nick.md`
 * `assets/speakers/nick.png`
 
-# Adding a Session
+## Adding a Session
 
 Create a file by the name of `_sessions/snake-case-short-name.md`. Use the options detailed in `_sessions/_schema.md` to configure the details.
 
 The final PR should include:
 
 * `_sessions/nick.md`
+
+# Useful Snippets
+
+* Get a particular item from a collection (In this example, `sponsors` who are `featured: true`):
+  ```ruby
+  {{ site.sponsors | where: "featured", true }}
+  ```
+* Bind a value:
+  ```ruby
+  {{ assign partners = site.sponsors | where: "group", "partner" }}
+  ```
+* Do a `.map()` on a collection. (In this example, list all speakers by name as a sentence):
+  ```ruby
+  {{ site.speakers | map: "speaker", "name" | array_to_sentence_string }}
+  ```
+* Debug a value:
+  ```ruby
+  <pre>{{ site.speakers | inspect }}</pre>
+  ```
+* Use a `where_exp` to check arrays for contents, etc. (In this example, get the names of a speakers for a talk):
+  ```ruby
+  {{ site.speakers | where_exp: "speaker", "talk.speakers contains speaker.slug" | map "speaker", "name" }}
+  ```
 
 # Social cards
 
