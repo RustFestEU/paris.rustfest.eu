@@ -19,7 +19,7 @@ dates:
 markdown: kramdown
 
 # Plugins
-gems:
+plugins:
   - jekyll-redirect-from
 
 # Page Settings
