@@ -40,11 +40,7 @@ layout: default
             <img src="/assets/team/{{member.thumbnailUrl}}" />
             <div class="info">
               <span class="name">{{member.name}}</span>
-              <ul class="links">
-                {% for link in member.links %}
-                  <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
-                {% endfor %}
-              </ul>
+              {% include links.html links=member.links %}
             </div>
           </li>
         {% endfor %}

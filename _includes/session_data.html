@@ -26,11 +26,7 @@
                   <h3 class="name">{{speaker.name}}</h3>
                   {{speaker.content | markdownify }}
 
-                  <ul class="links">
-                    {% for link in speaker.links %}
-                      <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
-                    {% endfor %}
-                  </ul>
+                  {% include links.html links=speaker.links %}
                 </div>
               </div>
             {% endfor %}

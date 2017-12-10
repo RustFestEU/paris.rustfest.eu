@@ -4,33 +4,19 @@ permalink: /about/
 title: About
 ---
 
-RustFest is Europe’s Rust-dedicated conference. The next edition of RustFest will take place as a two-day event in Zurich, Switzerland.
+RustFest is Europe’s Rust-dedicated conference. The next edition of RustFest will take place as a two-day event in {{ site.location.city }}, {{ site.location.country }}.
 
 We care about diversity and accessibility at this conference -- please take a look at our [Code of Conduct](/code-of-conduct/) and [Accessibility Statement](/accessibility/).
 
+{% assign organizers = site.people | where_exp: "person", "person.groups contains 'organizer'" %}
 
 <section>
   <h2>Team</h2>
   <ul class="team">
-    {% for member in site.organizers %}
-      {% unless member.alumn %}
+    {% for person in organizers %}
         <li>
-          {% include team-member.html member=member %}
+          {% include cards/person.html person=person %}
         </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section>
-  <h2>Alumni</h2>
-  <ul class="team">
-    {% for member in site.organizers %}
-      {% if member.alumn %}
-        <li>
-          {% include team-member.html member=member %}
-        </li>
-      {% endif %}
     {% endfor %}
   </ul>
 </section>
