@@ -3,8 +3,7 @@ city: Berlin
 year: 2016
 
 link: http://2016.rustfest.eu
-videos: https://www.youtube.com/playlist?list=PL85XCvVPmGQh8nWR_Z-fTmPGsUWuzb-dn
-image: true
+videos: https://www.youtube-nocookie.com/embed/videoseries?list=PL85XCvVPmGQh8nWR_Z-fTmPGsUWuzb-dn
 
 sponsors:
   - Microsoft

@@ -6,6 +6,10 @@ description: >
 baseurl: "" # the subpath of the site, e.g. /blog
 url: "http://www.rustfest.eu" # the base hostname & protocol for the site
 metaKeywords: "rust, conf, rustfest, rustfesteu, conference, programming language"
+social:
+  twitter: rustfest
+  github: rustfesteu
+  facebook: rustfest
 twitter_username: rustfest
 github_username:  rustfesteu
 facebook_username:  rustfest
@@ -23,7 +27,6 @@ dates:
 # Page Settings
 owner: "asquera Event UG"
 
-# Speaker/Workshop session landing pages
 collections:
   sessions:
     permalink: /:collection/:path
