@@ -11,7 +11,7 @@
   <link rel="canonical" href="{{ site.url }}">
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="{{ page.socialTwitterCardType | default: "summary" }}" />
-  <meta name="twitter:site" content="{{ site.twitter_username }}" />
+  <meta name="twitter:site" content="{{ site.social.twitter }}" />
   <meta name="twitter:title" content="{% if page.speaker %}{{ page.speaker }} - {{ page.title }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}" />
   <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
 
