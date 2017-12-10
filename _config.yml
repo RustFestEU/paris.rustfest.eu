@@ -28,13 +28,9 @@ collections:
   sessions:
     permalink: /:collection/:path
     output: true
-  speakers:
+  people:
     permalink: /:collection/:path
     output: true
-  organizers:
-    permalink: /:collection/:path
-    # We're all on the about page!
-    output: false
   sponsors:
     permalink: /:collection/:path
     # They have their own link.
@@ -50,9 +46,9 @@ defaults:
     values:
       layout: session
   - scope:
-      type: speakers
+      type: people
     values:
-      layout: speaker
+      layout: person
 
 # mailinglist
 mailchimp:

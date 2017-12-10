@@ -22,7 +22,7 @@ title: Talks
             </h2>
             <div class="wrap">
               {% for speaker_slug in talk.speakers %}
-                {% assign speaker = site.speakers | where: "slug", speaker_slug | first %}
+                {% assign speaker = site.people | where: "slug", speaker_slug | first %}
                 <div id="{{speaker.name | slugify }}" class="speaker">
                   <div class="portrait">
                     <img src="{{speaker.image}}" />
@@ -31,11 +31,7 @@ title: Talks
                     <h3 class="name">{{speaker.name}}</h3>
                     {{speaker.content | markdownify }}
 
-                    <ul class="links">
-                      {% for link in speaker.links %}
-                        <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
-                      {% endfor %}
-                    </ul>
+                    {% include links.html links=speaker.links %}
                   </div>
                 </div>
               {% endfor %}

@@ -4,6 +4,10 @@ layout: default
 permalink: /past_events/index.html
 ---
 
-{% for event in site.past_events %}
-  {% include event.html event=event %}
-{% endfor %}
+<ol>
+  {% for event in site.past_events %}
+    <li>
+      {% include event.html event=event %}
+    </li>
+  {% endfor %}
+</ol>
