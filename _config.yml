@@ -10,9 +10,6 @@ social:
   twitter: rustfest
   github: rustfesteu
   facebook: rustfest
-twitter_username: rustfest
-github_username:  rustfesteu
-facebook_username:  rustfest
 socialImageSrc: "/assets/favicons/logo.png"
 
 location:
