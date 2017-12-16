@@ -4,10 +4,10 @@ layout: default
 permalink: /past_events/index.html
 ---
 
-<ol>
+<ul class="events cardset" data-columns=3>
   {% for event in site.past_events %}
     <li>
-      {% include event.html event=event %}
+      {% include cards/event.html event=event %}
     </li>
   {% endfor %}
-</ol>
+</ul>
