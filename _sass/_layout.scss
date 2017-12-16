@@ -78,4 +78,14 @@ iframe {
 
 .videoplaylist {
   text-align: center;
+
+  a.button.primary {
+    margin-top: 2em;
+
+    &:hover, &:active {
+      border-color: #fff;
+      color: #fff;
+      background-color: transparent;
+    }
+  }
 }
