@@ -7,7 +7,7 @@ permalink: /location/
 <div class="backdrop" style="background: url(/assets/paris/paris-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
   <div class="popout">
     <section>
-      <h1>Welcome to Paris</h1>
+      <h1>Welcome to {{site.location.city}}</h1>
       <p>We are very pleased to host the fourth edition of RustFest in Paris, France.</p>
     </section>
   </div>
