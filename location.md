@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Next stop: Zürich"
+title: "Next stop: Paris"
 permalink: /location/
 ---
 
-<div class="backdrop" style="background: url(/assets/zurich/zurich-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
+<div class="backdrop" style="background: url(/assets/paris/paris-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
   <div class="popout">
     <section>
-      <h1>Welcome to Zürich</h1>
-      <p>We are very pleased to host the third edition of RustFest in Zurich, Switzerland.</p>
+      <h1>Welcome to Paris</h1>
+      <p>We are very pleased to host the fourth edition of RustFest in Zurich, Switzerland.</p>
     </section>
   </div>
 </div>
@@ -26,7 +26,7 @@ With three state universities, many tech companies ranging from small startups t
 </section>
 
 <section class="img-grid">
-  <img src="/assets/zurich/zurich-panorama.jpg" alt="Zurich purple hour (panorama shot)">
+  <img src="/assets/paris/paris-panorama.jpg" alt="Paris Frankreich Eiffelturm Nacht (panorama shot)">
 </section>
 
 <section markdown="1">
@@ -42,7 +42,7 @@ People looking for cheap flights might also consider flying to the *EuroAirport 
 
 ### Entry requirements
 
-Even though Switzerland is not part of the European Union (EU), it is a member of the Schengen Agreement. EU and EEA citizens can enter Switzerland without a visa, as long as a valid ID card or passport can be presented. As usual, a visa granted for any Schengen member is valid in Switzerland as well. For more information, check out Wikivoyage on [Travelling around the Schengen Area](https://en.m.wikivoyage.org/wiki/Travelling_around_the_Schengen_Area).
+France is part of the European Union (EU), it is a member of the Schengen Agreement. EU and EEA citizens can enter France without a visa, as long as a valid ID card or passport can be presented. As usual, a visa granted for any Schengen member is valid in France as well. For more information, check out Wikivoyage on [Travelling around the Schengen Area](https://en.m.wikivoyage.org/wiki/Travelling_around_the_Schengen_Area).
 
 </section>
 
@@ -58,29 +58,19 @@ The address of the venue is *[Sonneggstrasse 5, 8092 Zurich](https://goo.gl/maps
 
 Zurich has excellent public transport - the venue can easily be reached by tram no. 6, 10 and 9 by exiting the stop "ETH/Universitätsspital". Coming from Zurich Main Station ("Zurich HB"), there is also the option to take the Polybahn funicular from "Central" to "ETH Zentrum". Look out for the *focusTerra* signs to find the NO building.
 
-A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a single ticket 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
+A 24 hour ticket for within the city of Paris (zone 110) costs € X.XX, a single ticket 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
 </section>
 
-<section class="img-grid">
-  <div>
-    <img src="/assets/zurich/eth-mainbuilding.jpg" alt="Main building of ETH by night" style="max-height: 404px;">
-    <img src="/assets/zurich/venue-inside.jpg" alt="Foyer of the NO building" style="max-height: 404px;">
-  </div>
-</section>
 
-<hr>
 
-<section style="font-size: 0.65em">
-    <p><strong>Image Credits:</strong> <a href="https://www.flickr.com/photos/lschlagenhauf/30615001992/in/album-72157664912678546/">Zurich purple hour</a> by 
-Lukas Schlagenhauf (CC BY-ND 2.0). <a href="https://commons.wikimedia.org/wiki/File:ETH_Z%C3%BCrich_im_Abendlicht.jpg">ETH Zürich im Abendlicht</a> by ETH-Bibliothek (CC BY-SA 4.0)
-</p>
-</section>
 
+<section markdown="1">
 ## Additional information
 
 <ul>
   <li>Yes, you can drink the tap water.</li>
-  <li>The local currency is CHF (not EUR). Zürich is generally a card friendly city.</li>
-  <li>The local power socket is not the EU one. You may need an adaptor.</li>
-  <li>Zürich is generally fairly expensive compared to other European cities, be prepared to pay a bit more for your favorite döner.</li>
+  <li>The local currency is € (EUR).</li>
+  <li>The local power socket is the EU one. You may need an adaptor.</li>
+  <li>Paris is generally fairly expensive compared to other European cities, be prepared to pay a bit more for your favorite döner.</li>
 </ul>
+</section>
