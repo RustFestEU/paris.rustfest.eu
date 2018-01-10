@@ -13,13 +13,14 @@ social:
 socialImageSrc: "/assets/favicons/logo.png"
 
 location:
-  venue: "TBD"
+  venue: "Espace Saint-Martin"
   city: "Paris"
   country: "France"
 dates:
   year: "2018"
-  talks: "Someday, Spring"
+  talks: "Saturday, May 26th"
   workshops: "Someday, Spring"
+  impl_days: "To be decided"
 
 # Page Settings
 owner: "asquera Event UG"
