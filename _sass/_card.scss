@@ -28,7 +28,8 @@
 
 .cardset .card {
     padding: 2vw;
-    background-image: 
+    background-image: linear-gradient(to bottom, rgba(8,71,136,0.9), rgba(8,71,136,0.1));
+    background-image:
         linear-gradient(to bottom, rgba(8,71,136,0.9), rgba(8,71,136,0.1)),
         var(--banner);
     background-size: cover;
