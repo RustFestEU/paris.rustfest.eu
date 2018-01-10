@@ -8,7 +8,7 @@ permalink: /location/
   <div class="popout">
     <section>
       <h1>Welcome to Paris</h1>
-      <p>We are very pleased to host the fourth edition of RustFest in Zurich, Switzerland.</p>
+      <p>We are very pleased to host the fourth edition of RustFest in Paris, France.</p>
     </section>
   </div>
 </div>
@@ -50,11 +50,11 @@ France is part of the European Union (EU), it is a member of the Schengen Agreem
 
 ## Conference Venue
 
-RustFest Zurich will be hosted in the lovely *NO building* of the Swiss Federal Institute of Technology (ETH Zurich), centrally located within walking distance from Zurich Main Station. The NO building is the home of the Department of Earth Sciences and *[focusTerra](https://www.erdw.ethz.ch/en/news-events/focusterra.html)* - a free, permanent exhibition the about the geological wonders about our planet Earth.
+RustFest Zurich will be hosted in the lovely *NO building* of the Swiss Federal Institute of Technology (ETH Zurich), centrally located within walking distance from Zurich Main Station. The NO building is the home of the Department of Earth Sciences and *[espace saint-martin](www.espacesaintmartin.com/en/)* - a free, permanent exhibition the about the geological wonders about our planet Earth.
 
 ### Getting there
 
-The address of the venue is *[Sonneggstrasse 5, 8092 Zurich](https://goo.gl/maps/K5Zb1P8ARdE2)*.
+The address of the venue is *[199 bis, rue Saint-Martin, 75003 Paris](https://goo.gl/maps/pLzwNj7LxgP2)*.
 
 Zurich has excellent public transport - the venue can easily be reached by tram no. 6, 10 and 9 by exiting the stop "ETH/Universitätsspital". Coming from Zurich Main Station ("Zurich HB"), there is also the option to take the Polybahn funicular from "Central" to "ETH Zentrum". Look out for the *focusTerra* signs to find the NO building.
 
