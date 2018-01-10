@@ -50,7 +50,7 @@ France is part of the European Union (EU), it is a member of the Schengen Agreem
 
 ## Conference Venue
 
-RustFest Zurich will be hosted in the lovely *NO building* of the Swiss Federal Institute of Technology (ETH Zurich), centrally located within walking distance from Zurich Main Station. The NO building is the home of the Department of Earth Sciences and *[espace saint-martin](www.espacesaintmartin.com/en/)* - a free, permanent exhibition the about the geological wonders about our planet Earth.
+RustFest Zurich will be hosted in the lovely *NO building* of the Swiss Federal Institute of Technology (ETH Zurich), centrally located within walking distance from Zurich Main Station. The NO building is the home of the Department of Earth Sciences and *[espace saint-martin](http://espacesaintmartin.com/en/)* - a free, permanent exhibition the about the geological wonders about our planet Earth.
 
 ### Getting there
 
