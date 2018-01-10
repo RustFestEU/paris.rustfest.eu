@@ -14,6 +14,15 @@ Pull requests are welcome, and if you find any mistakes please just open an issu
 
 # Common tasks
 
+## Change `_config.yml`
+
+Every change to `_config.yml` will not be reflected while jekyll is still running.
+You need to terminate it with `Ctrl` + `C` and then start it again:
+
+```
+docker run --rm --volume=$(pwd):/srv/jekyll -p 35729:35729 -p 4000:4000 -it jekyll/jekyll jekyll serve
+```
+
 ## Adding an Organizer
 
 Create a file by the name of `_organizers/nick.md` where `nick` is the nick of the organizer. Use the options detailed in `_organizers/_schema.md` to configure the details.

@@ -36,6 +36,11 @@ section ol {
   .itemgroup {
     margin: 2em 0;
     @include align-items(flex-start);
+    flex-wrap: wrap;
+
+    >* {
+        min-width: 250px;
+    }
   }
 
   p {

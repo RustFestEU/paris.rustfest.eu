@@ -4,7 +4,7 @@
   </a>
   <ul class="links">
     {% for link in event.links %}
-      <li><a href="{{ link.link }}">{{link.title}}</a></li>
+      <li><a href="{{ link.link }}" target="_blank">{{link.title}}</a></li>
     {% endfor %}
   </ul>
   <p>{{ event.content }}</p>
