@@ -13,7 +13,7 @@ _This Code of Conduct is also available in [Dutch](http://nl.confcodeofconduct.c
 <p>You have our contact details in the emails we&#39;ve sent.</p>
 
 Mail: <coc@rustfest.eu>
-Phone: +49 30 69208875
+Phone: +49 172 8122469
 
 <h2>The Quick Version</h2>
 
