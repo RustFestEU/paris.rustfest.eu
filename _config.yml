@@ -36,10 +36,6 @@ collections:
     permalink: /:collection/:path
     # They have their own link.
     output: false
-  past_events:
-    permalink: /:collection/:path
-    # They have their own website!
-    output: false
 
 defaults:
   - scope:
@@ -57,7 +53,7 @@ mailchimp:
   user: 7945052bc1ecc432bff53c079
   id: 5929ff51d6
 
-exclude: 
+exclude:
   - /vendor
 
 # Build settings
