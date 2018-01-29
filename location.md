@@ -54,15 +54,47 @@ France is part of the European Union (EU) as well as the Schengen Agreement. EU 
 
 ## Conference Venue
 
-<!-- TODO: Change me -->
-RustFest Zurich will be hosted in the lovely *NO building* of the Swiss Federal Institute of Technology (ETH Zurich), centrally located within walking distance from Zurich Main Station. The NO building is the home of the Department of Earth Sciences and *[espace saint-martin](http://espacesaintmartin.com/en/)* - a free, permanent exhibition the about the geological wonders about our planet Earth.
+RustFest Paris will be hosted in the incredible [*Espace Saint-Martin*](http://espacesaintmartin.com/fr/contact/) in the center of Paris.
 
 ### Getting there
 
 The address of the venue is *[199 bis, rue Saint-Martin, 75003 Paris](https://goo.gl/maps/pLzwNj7LxgP2)*.
 
-<!-- TODO: Change me -->
-Zurich has excellent public transport - the venue can easily be reached by tram no. 6, 10 and 9 by exiting the stop "ETH/Universitätsspital". Coming from Zurich Main Station ("Zurich HB"), there is also the option to take the Polybahn funicular from "Central" to "ETH Zentrum". Look out for the *focusTerra* signs to find the NO building.
+As you will see, Paris has an excellent public transport system.
+
+The [*Espace Saint-Martin*](http://espacesaintmartin.com/fr/contact/) is 7 minutes away from *Châtelet - Les Halles* which is the biggest metro station of Paris. You can get to it by using any of the following train lines:
+
+ * RER A
+ * RER B
+ * RER D
+ * metro 1
+ * metro 4
+ * metro 7
+ * metro 14
+
+Or any of these bus lines:
+
+21, 38, 47, 58, 67, 69, 70, 72, 74, 75, 76, 81, 85, 96
+
+However, if you find this too long, you also have the *Étienne Marcel* metro station which is 5 minutes away and you can get there with the following lines:
+
+ * metro 4
+ * Bus 29
+
+Or, even closer, the *Rambuteau* metro station which is 2 minutes away. You can get there with the following line:s
+
+ * metro 11
+ * Bus 29
+
+Altough it's common to use bikes (or maybe not?) in the rest of the world, it's not very recommended in Paris (hard to find places where to park the bikes).
+
+All public transports (metro, bus, tramway, RER) are handled by the same company in Paris, bus, so one ticket will allow you to travel anywhere (inside the city and the closest towns).
+
+The "best" transport ticket (because it provides unlimited transport for a day) is called [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis). In Paris, you have 5 different areas (1 being Paris and the bigger the number gets, the more far you are from it) and depending on your ticket, you can't go to all of them. We can assume that you'll arrive at the Charles-de-Gaulle airport or at the Orly one which means you'll be in zone 3. Therefore, the best way would certainly be to take a [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) ticket which covers the area 1 to 3 (it costs 10€ a day).
+
+However, since we can assume that you'll stay in Paris for at least two days, we recommend you the [Paris visite](https://www.ratp.fr/titres-et-tarifs/forfait-paris-visite) ticket. It's more advantageous than the [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) one starting two days.
+
+If you just want a ticket to go to a specific station once, then the price can strongly vary.
 
 <!-- TODO: Change me -->
 A 24 hour ticket for within the city of Paris (zone 110) costs € X.XX, a single ticket 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
