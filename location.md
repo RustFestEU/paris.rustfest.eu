@@ -86,7 +86,7 @@ Or, even closer, the *Rambuteau* metro station which is 2 minutes away. You can 
  * metro 11
  * Bus 29
 
-Altough it's common to use bikes (or maybe not?) in the rest of the world, it's not very recommended in Paris (hard to find places where to park the bikes).
+Although it's common to use bikes (or maybe not?) in the rest of the world, it's not recommended in Paris (hard to find places where to park the bikes).
 
 All public transports (metro, bus, tramway, RER) are handled by the same company in Paris, bus, so one ticket will allow you to travel anywhere (inside the city and the closest towns).
 
@@ -95,9 +95,6 @@ The "best" transport ticket (because it provides unlimited transport for a day) 
 However, since we can assume that you'll stay in Paris for at least two days, we recommend you the [Paris visite](https://www.ratp.fr/titres-et-tarifs/forfait-paris-visite) ticket. It's more advantageous than the [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) one starting two days.
 
 If you just want a ticket to go to a specific station once, then the price can strongly vary.
-
-<!-- TODO: Change me -->
-A 24 hour ticket for within the city of Paris (zone 110) costs € X.XX, a single ticket 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
 </section>
 
 
