@@ -1,38 +1,42 @@
 ---
 layout: default
-title: "Next stop: Zürich"
+title: "Next stop: Paris"
 permalink: /location/
 ---
 
-<div class="backdrop" style="background: url(/assets/zurich/zurich-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
+<div class="backdrop" style="background: url(/assets/paris/paris-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
   <div class="popout">
     <section>
-      <h1>Welcome to Zürich</h1>
-      <p>We are very pleased to host the third edition of RustFest in Zurich, Switzerland.</p>
+      <h1>Welcome to {{site.location.city}}</h1>
+      <p>We are very pleased to host the fourth edition of RustFest in Paris, France.</p>
     </section>
   </div>
 </div>
 
 <section>
 <p>
+<!-- TODO: Change me -->
 Zurich is the largest city in Switzerland, located in the northern part of the country and at the tip of Lake Zurich.
 For many years, Zurich has been ranked as one of the cities with the highest quality of life in the world.
-With the alps just in reach on the horizon on a clear day, and a lovely old-town near the lake, it is always a great place to visit!</p>
+With the alps just in reach on the horizon on a clear day, and a lovely old-town near the lake, it is always a great place to visit!
+</p>
 
 <p>
+<!-- TODO: Change me -->
 While it is probably best known for being a financial hub, Zurich is also home to many technology and research endeavors:
 With three state universities, many tech companies ranging from small startups to large international enterprises, Zurich is a great place for developers and enthusiasts to be in.
 </p>
 </section>
 
 <section class="img-grid">
-  <img src="/assets/zurich/zurich-panorama.jpg" alt="Zurich purple hour (panorama shot)">
+    <img src="/assets/paris/paris-panorama.jpg" alt="Paris Eiffel Tower Nacht (panorama shot), source: https://unsplash.com/photos/nHuHQyY0aB4">
 </section>
 
 <section markdown="1">
 
 ## Travel
 
+<!-- TODO: Change me -->
 Zürich is well connected to the rest of Europe with many direct flights and trains to other major European cities every day.
 
 Depending upon your location it may be an option to take a high speed train (eg. Paris -> Zürich HB in 4.5h) or a relief train (eg. Berlin -> Zürich in ~10h with wifi).
@@ -42,7 +46,7 @@ People looking for cheap flights might also consider flying to the *EuroAirport 
 
 ### Entry requirements
 
-Even though Switzerland is not part of the European Union (EU), it is a member of the Schengen Agreement. EU and EEA citizens can enter Switzerland without a visa, as long as a valid ID card or passport can be presented. As usual, a visa granted for any Schengen member is valid in Switzerland as well. For more information, check out Wikivoyage on [Travelling around the Schengen Area](https://en.m.wikivoyage.org/wiki/Travelling_around_the_Schengen_Area).
+France is part of the European Union (EU) as well as the Schengen Agreement. EU and EEA citizens can enter France without a visa, as long as a valid ID card or passport can be presented. As usual, a visa granted for any Schengen member is valid in France as well. For more information, check out Wikivoyage on [Travelling around the Schengen Area](https://en.m.wikivoyage.org/wiki/Travelling_around_the_Schengen_Area).
 
 </section>
 
@@ -50,37 +54,59 @@ Even though Switzerland is not part of the European Union (EU), it is a member o
 
 ## Conference Venue
 
-RustFest Zurich will be hosted in the lovely *NO building* of the Swiss Federal Institute of Technology (ETH Zurich), centrally located within walking distance from Zurich Main Station. The NO building is the home of the Department of Earth Sciences and *[focusTerra](https://www.erdw.ethz.ch/en/news-events/focusterra.html)* - a free, permanent exhibition the about the geological wonders about our planet Earth.
+RustFest Paris will be hosted in the incredible [*Espace Saint-Martin*](http://espacesaintmartin.com/fr/contact/) in the center of Paris.
 
 ### Getting there
 
-The address of the venue is *[Sonneggstrasse 5, 8092 Zurich](https://goo.gl/maps/K5Zb1P8ARdE2)*.
+The address of the venue is *[199 bis, rue Saint-Martin, 75003 Paris](https://goo.gl/maps/pLzwNj7LxgP2)*.
 
-Zurich has excellent public transport - the venue can easily be reached by tram no. 6, 10 and 9 by exiting the stop "ETH/Universitätsspital". Coming from Zurich Main Station ("Zurich HB"), there is also the option to take the Polybahn funicular from "Central" to "ETH Zentrum". Look out for the *focusTerra* signs to find the NO building.
+As you will see, Paris has an excellent public transport system.
 
-A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a single ticket 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
+The [*Espace Saint-Martin*](http://espacesaintmartin.com/fr/contact/) is 7 minutes away from *Châtelet - Les Halles* which is the biggest metro station of Paris. You can get to it by using any of the following train lines:
+
+ * RER A
+ * RER B
+ * RER D
+ * metro 1
+ * metro 4
+ * metro 7
+ * metro 14
+
+Or any of these bus lines:
+
+21, 38, 47, 58, 67, 69, 70, 72, 74, 75, 76, 81, 85, 96
+
+However, if you find this too long, you also have the *Étienne Marcel* metro station which is 5 minutes away and you can get there with the following lines:
+
+ * metro 4
+ * Bus 29
+
+Or, even closer, the *Rambuteau* metro station which is 2 minutes away. You can get there with the following line:s
+
+ * metro 11
+ * Bus 29
+
+Although it's common to use bikes (or maybe not?) in the rest of the world, it's not recommended in Paris (hard to find places where to park the bikes).
+
+All public transports (metro, bus, tramway, RER) are handled by the same company in Paris, bus, so one ticket will allow you to travel anywhere (inside the city and the closest towns).
+
+The "best" transport ticket (because it provides unlimited transport for a day) is called [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis). In Paris, you have 5 different areas (1 being Paris and the bigger the number gets, the more far you are from it) and depending on your ticket, you can't go to all of them. We can assume that you'll arrive at the Charles-de-Gaulle airport or at the Orly one which means you'll be in zone 3. Therefore, the best way would certainly be to take a [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) ticket which covers the area 1 to 3 (it costs 10€ a day).
+
+However, since we can assume that you'll stay in Paris for at least two days, we recommend you the [Paris visite](https://www.ratp.fr/titres-et-tarifs/forfait-paris-visite) ticket. It's more advantageous than the [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) one starting two days.
+
+If you just want a ticket to go to a specific station once, then the price can strongly vary.
 </section>
 
-<section class="img-grid">
-  <div>
-    <img src="/assets/zurich/eth-mainbuilding.jpg" alt="Main building of ETH by night" style="max-height: 404px;">
-    <img src="/assets/zurich/venue-inside.jpg" alt="Foyer of the NO building" style="max-height: 404px;">
-  </div>
-</section>
 
-<hr>
 
-<section style="font-size: 0.65em">
-    <p><strong>Image Credits:</strong> <a href="https://www.flickr.com/photos/lschlagenhauf/30615001992/in/album-72157664912678546/">Zurich purple hour</a> by 
-Lukas Schlagenhauf (CC BY-ND 2.0). <a href="https://commons.wikimedia.org/wiki/File:ETH_Z%C3%BCrich_im_Abendlicht.jpg">ETH Zürich im Abendlicht</a> by ETH-Bibliothek (CC BY-SA 4.0)
-</p>
-</section>
 
+<section markdown="1">
 ## Additional information
 
 <ul>
   <li>Yes, you can drink the tap water.</li>
-  <li>The local currency is CHF (not EUR). Zürich is generally a card friendly city.</li>
-  <li>The local power socket is not the EU one. You may need an adaptor.</li>
-  <li>Zürich is generally fairly expensive compared to other European cities, be prepared to pay a bit more for your favorite döner.</li>
+  <li>The local currency is € (EUR).</li>
+  <li>The local power socket is the EU one. You may need an adaptor.</li>
+  <li>Paris is generally fairly expensive compared to other European cities, be prepared to pay a bit more for your favorite bread, wine, and cheese.</li>
 </ul>
+</section>
