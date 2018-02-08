@@ -38,17 +38,19 @@ With three state universities, many tech companies ranging from small startups t
 
 ### By train
 
-Paris is very easily reachable by train. There are [seven different train stations](https://en.wikivoyage.org/wiki/Paris#By_train), all of which are connected through the local transport system. Many direct trains are available from various European cities such as Amsterdam, Brussels, Cologne, Frankfurt, London, Milan, Munich, Turin, and Zurich.
+Paris is very easily reachable by train. There are [multiple different train stations](https://en.wikipedia.org/wiki/List_of_railway_stations_in_Paris), with international trains being served from **Gare du Nord**, **Gare l'Est**, and **Gare de Lyon**. Many direct trains are available from various European cities such as Amsterdam, Brussels, Cologne, Frankfurt, London, Milan, Munich, Turin, and Zurich. All train stations are connected to the local public transport system.
 
 ### By plane
 
-Paris has two international airports, **CDG** and **ORY**. The main airport, [Paris Charles de Gaulle Airport (**CDG**)](https://en.wikivoyage.org/wiki/Paris_Charles_de_Gaulle_Airport), is located in the north of Paris. This airport is connected with central Paris through train line *RER B*.
+Paris has two international airports, **CDG** and **ORY**. We recommend to land at **CDG** airport if possible, as it is a lot easier to get into Paris from there.
 
-The second, older airport, [Paris Orly Airport (**ORY**)](https://en.wikivoyage.org/wiki/Paris_Orly_Airport), is located southwest of the city. The *Orlyval* light train connects the airport to *Antony* station, which is part of the *RER B* line. Alternatively, the cheaper *OrlyBus* connects to *Denfert-Rochereau* station.
+The main airport is [Paris Charles de Gaulle Airport (**CDG**)](https://en.wikivoyage.org/wiki/Paris_Charles_de_Gaulle_Airport), located in the north of Paris. This airport is connected with central Paris through train line *RER B*. See [below](#getting-there) for transport ticket ticket options.
 
-Some low-cost carriers also serve [Beauvais (**BVA**)](https://www.aeroportparisbeauvais.com/en/passengers/), a regional airport 85 km outside of Paris. Please be adviced that this airport is not very convinient to reach from the city itself. A shuttle bus to and from Paris *Porte Maillot* station is operated by the airport and takes roughly an hour in good traffic.
+The second, older airport, [Paris Orly Airport (**ORY**)](https://en.wikivoyage.org/wiki/Paris_Orly_Airport), is located southwest of the city. The preferred way to reach it is by the *OrlyBus* which connects to *Denfert-Rochereau* station. A more expensive alternative (requiring a separate ticket) is the *Orlyval* light train to *Antony* station (part of the *RER B* line).
 
-Please check out the [Wikivoyage guide](https://en.wikivoyage.org/wiki/Paris#Get_in) for more detailed informatoin about how to travel from and to Paris.
+Some low-cost carriers also serve [Beauvais (**BVA**)](https://www.aeroportparisbeauvais.com/en/passengers/), a regional airport 85 km outside of Paris. Please be advised that this airport is not very convenient to reach from the city itself. A shuttle bus to and from Paris *Porte Maillot* station is operated by the airport and takes roughly an hour in good traffic.
+
+Please check out the [Wikivoyage guide](https://en.wikivoyage.org/wiki/Paris#Get_in) for more detailed information about how to travel from and to Paris.
 
 ### Entry requirements
 
