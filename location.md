@@ -44,7 +44,7 @@ Paris is very easily reachable by train. There are [multiple different train sta
 
 Paris has two international airports, **CDG** and **ORY**. We recommend to land at **CDG** airport if possible, as it is a lot easier to get into Paris from there.
 
-The main airport is [Paris Charles de Gaulle Airport (**CDG**)](https://en.wikivoyage.org/wiki/Paris_Charles_de_Gaulle_Airport), located in the north of Paris. This airport is connected with central Paris through train line *RER B*. See [below](#getting-there) for transport ticket ticket options.
+The main airport is [Paris Charles de Gaulle Airport (**CDG**)](https://en.wikivoyage.org/wiki/Paris_Charles_de_Gaulle_Airport), located in the north of Paris. This airport is connected with central Paris through train line *RER B*. See [below](#getting-there) for transport ticket options.
 
 The second, older airport, [Paris Orly Airport (**ORY**)](https://en.wikivoyage.org/wiki/Paris_Orly_Airport), is located southwest of the city. The preferred way to reach it is by the *OrlyBus* which connects to *Denfert-Rochereau* station. A more expensive alternative (requiring a separate ticket) is the *Orlyval* light train to *Antony* station (part of the *RER B* line).
 
