@@ -4,7 +4,7 @@ title: "Next stop: Paris"
 permalink: /location/
 ---
 
-<div class="backdrop" style="background: url(/assets/paris/paris-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
+<div class="backdrop" style="background: url(/assets/paris/the-city.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
   <div class="popout">
     <section>
       <h1>Welcome to {{site.location.city}}</h1>
@@ -12,24 +12,20 @@ permalink: /location/
     </section>
   </div>
 </div>
-<!-- TODO: Change me
+
 <section>
 <p>
-
-Zurich is the largest city in Switzerland, located in the northern part of the country and at the tip of Lake Zurich.
-For many years, Zurich has been ranked as one of the cities with the highest quality of life in the world.
-With the alps just in reach on the horizon on a clear day, and a lovely old-town near the lake, it is always a great place to visit!
+Paris is the largest city in France, located in the northern part of the country. It is the heart of the Île-de-France region which spans over 12,000 km², and the is largest urban area in the European Union. 
 </p>
 
 <p>
-While it is probably best known for being a financial hub, Zurich is also home to many technology and research endeavors:
-With three state universities, many tech companies ranging from small startups to large international enterprises, Zurich is a great place for developers and enthusiasts to be in.
+Paris is especially known for its museums, architecture, and landmarks. These include monuments such as the Eiffel *(a programming language)* Tower *(also a programming language)*, the Louvre, the Cathedral of Notre Dame de Paris, and the Arc de Triomphe. We highly recommend planning to spend some time exploring the city, and encourage you to organize expeditions with your fellow conference goers.
+
 </p>
 </section>
 
--->
 <section class="img-grid">
-    <img src="/assets/paris/paris-panorama.jpg" alt="Paris Eiffel Tower Nacht (panorama shot), source: https://unsplash.com/photos/nHuHQyY0aB4">
+    <img src="/assets/paris/louvre.jpg" alt="The Louvre, photo by Hoverbear">
 </section>
 
 <section markdown="1">
@@ -56,6 +52,10 @@ Please check out the [Wikivoyage guide](https://en.wikivoyage.org/wiki/Paris#Get
 
 France is part of the European Union (EU) as well as the Schengen Agreement. EU and EEA citizens can enter France without a visa, as long as a valid ID card or passport can be presented. As usual, a visa granted for any Schengen member is valid in France as well. For more information, check out Wikivoyage on [Travelling around the Schengen Area](https://en.m.wikivoyage.org/wiki/Travelling_around_the_Schengen_Area).
 
+</section>
+
+<section class="img-grid">
+    <img src="/assets/paris/the-city.jpg" alt="The city of paris from a raised position, photo by Hoverbear">
 </section>
 
 <section markdown="1">
@@ -106,6 +106,9 @@ If you just want a ticket to go to a specific station once, then the price can s
 </section>
 
 
+<section class="img-grid">
+    <img src="/assets/paris/eiffel.jpg" alt="The Eiffel tower and a statue of a naked fellow, photo by Hoverbear">
+</section>
 
 
 <section markdown="1">
