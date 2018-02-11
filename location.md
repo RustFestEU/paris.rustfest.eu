@@ -12,22 +12,22 @@ permalink: /location/
     </section>
   </div>
 </div>
-
+<!-- TODO: Change me
 <section>
 <p>
-<!-- TODO: Change me -->
+
 Zurich is the largest city in Switzerland, located in the northern part of the country and at the tip of Lake Zurich.
 For many years, Zurich has been ranked as one of the cities with the highest quality of life in the world.
 With the alps just in reach on the horizon on a clear day, and a lovely old-town near the lake, it is always a great place to visit!
 </p>
 
 <p>
-<!-- TODO: Change me -->
 While it is probably best known for being a financial hub, Zurich is also home to many technology and research endeavors:
 With three state universities, many tech companies ranging from small startups to large international enterprises, Zurich is a great place for developers and enthusiasts to be in.
 </p>
 </section>
 
+-->
 <section class="img-grid">
     <img src="/assets/paris/paris-panorama.jpg" alt="Paris Eiffel Tower Nacht (panorama shot), source: https://unsplash.com/photos/nHuHQyY0aB4">
 </section>
@@ -36,13 +36,21 @@ With three state universities, many tech companies ranging from small startups t
 
 ## Travel
 
-<!-- TODO: Change me -->
-Zürich is well connected to the rest of Europe with many direct flights and trains to other major European cities every day.
+### By train
 
-Depending upon your location it may be an option to take a high speed train (eg. Paris -> Zürich HB in 4.5h) or a relief train (eg. Berlin -> Zürich in ~10h with wifi).
+Paris is very easily reachable by train. There are [multiple different train stations](https://en.wikipedia.org/wiki/List_of_railway_stations_in_Paris), with international trains being served from **Gare du Nord**, **Gare l'Est**, and **Gare de Lyon**. Many direct trains are available from various European cities such as Amsterdam, Brussels, Cologne, Frankfurt, London, Milan, Munich, Turin, and Zurich. All train stations are connected to the local public transport system.
 
-The *Zurich International Airport* (**ZRH**) is located just 20 minutes outside of the city center.
-People looking for cheap flights might also consider flying to the *EuroAirport Basel Mulhouse*, which is 1 hour away from Zurich by train.
+### By plane
+
+Paris has two international airports, **CDG** and **ORY**. We recommend to land at **CDG** airport if possible, as it is a lot easier to get into Paris from there.
+
+The main airport is [Paris Charles de Gaulle Airport (**CDG**)](https://en.wikivoyage.org/wiki/Paris_Charles_de_Gaulle_Airport), located in the north of Paris. This airport is connected with central Paris through train line *RER B*. See [below](#getting-there) for transport ticket options.
+
+The second, older airport, [Paris Orly Airport (**ORY**)](https://en.wikivoyage.org/wiki/Paris_Orly_Airport), is located southwest of the city. The preferred way to reach it is by the *OrlyBus* which connects to *Denfert-Rochereau* station. A more expensive alternative (requiring a separate ticket) is the *Orlyval* light train to *Antony* station (part of the *RER B* line).
+
+Some low-cost carriers also serve [Beauvais (**BVA**)](https://www.aeroportparisbeauvais.com/en/passengers/), a regional airport 85 km outside of Paris. Please be advised that this airport is not very convenient to reach from the city itself. A shuttle bus to and from Paris *Porte Maillot* station is operated by the airport and takes roughly an hour in good traffic.
+
+Please check out the [Wikivoyage guide](https://en.wikivoyage.org/wiki/Paris#Get_in) for more detailed information about how to travel from and to Paris.
 
 ### Entry requirements
 
