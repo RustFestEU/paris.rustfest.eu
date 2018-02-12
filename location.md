@@ -19,7 +19,7 @@ Paris is the largest city in France, located in the northern part of the country
 </p>
 
 <p>
-Paris is especially known for its museums, architecture, and landmarks. These include monuments such as the Eiffel <em>(a programming language)</em> Tower <em>(also a programming language)</em>, the Louvre, the Cathedral of Notre Dame de Paris, and the Arc de Triomphe. We highly recommend planning to spend some time exploring the city, and encourage you to organize expeditions with your fellow conference goers.
+Paris is especially known for its museums, architecture, and landmarks. These include monuments such as the Eiffel <em>(a programming language)</em> Tower <em>(also a programming language)</em>, the Louvre, the Cathedral of Notre Dame de Paris, and the Arc<'de Triomphe>. We highly recommend planning to spend some time exploring the city, and encourage you to organize expeditions with your fellow conference goers.
 
 </p>
 </section>
