@@ -15,7 +15,7 @@ permalink: /location/
 
 <section>
 <p>
-Paris is the largest city in France, located in the northern part of the country. It is the heart of the Île-de-France region which spans over 12,000 km², and the is largest urban area in the European Union. 
+Paris is the largest city in France, located in the northern part of the country. It is the heart of the Île-de-France region which spans over 12,000 km², and the largest urban area in the European Union. 
 </p>
 
 <p>
