@@ -19,7 +19,7 @@
         return tmp.textContent || tmp.innerText || '';
       }
       $(function () {
-        $.ajax('http://blog.rustfest.eu/feed.xml').then(function (data) {
+        $.ajax('https://blog.rustfest.eu/feed.xml').then(function (data) {
           $(data).find('item').first().each(function () {
             var post = $(this);
 
