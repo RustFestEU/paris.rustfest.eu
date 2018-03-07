@@ -14,13 +14,14 @@ socialImageSrc: "/assets/favicons/logo.png"
 
 location:
   venue: "Espace Saint-Martin"
+  impl_days: "Mozilla Paris"
   city: "Paris"
   country: "France"
 dates:
   year: "2018"
   talks: "Saturday, May 26th"
   workshops: "Sunday, May 27th"
-  impl_days: "To be determined"
+  impl_days: "Monday, May 28th and<br>Tuesday, May 29th"
 
 # Page Settings
 owner: "asquera Event UG"
