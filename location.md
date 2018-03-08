@@ -110,6 +110,14 @@ If you just want a ticket to go to a specific station once, then the price can s
     <img src="/assets/paris/eiffel.jpg" alt="The Eiffel tower and a statue of a naked fellow, photo by Hoverbear">
 </section>
 
+<a name="impl_days"></a>
+<section markdown="1">
+### impl days (May, 28th and 29th)
+
+This time we will be hosted by [Mozilla Paris](https://wiki.mozilla.org/Paris) at `16bis Boulevard Montmartre, 75009 Paris, France`.
+<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3402649164199834%2C48.87043834993238%2C2.342174649238587%2C48.87350454058211&amp;layer=mapnik&amp;marker=48.871971468746175%2C2.3412197828292847" style="border: 1px solid black"></iframe>
+</section>
+
 
 <section markdown="1">
 ## Additional information
