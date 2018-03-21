@@ -2,9 +2,9 @@
 # The slug should be the `snake-case-simple-name-of-the-company`.
 
 # The full name of the sponsor.
-name: "Example LLC"
+name: "snips"
 # Whatever link they ask for.
-link: "http://example.com"
+link: "https://snips.ai/"
 # If they show on the frontpage.
 featured: false
 # One of:
