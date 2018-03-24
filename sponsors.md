@@ -75,5 +75,8 @@ title: Sponsoring
     <a class="button" href="mailto:sponsors@rustfest.eu">
       Get in touch now
     </a>
+    <a class="button" href="/sponsors/packages/">
+      Sponsor packages
+    </a>
   </p>
 </section>
