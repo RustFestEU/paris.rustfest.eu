@@ -61,7 +61,7 @@ bodytags: with-hero
 <div class='popout sponsors'>
   <section>
     {% if main_sponsors[0] %}
-    <h2>Main Sponsors</h2>
+    <h2>Main Sponsor{% if main_sponsors[1] %}s{% endif %}</h2>
     <ul>
       {% for sponsor in main_sponsors %}
         <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
