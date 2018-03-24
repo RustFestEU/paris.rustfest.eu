@@ -5,5 +5,3 @@ featured: false
 group: sponsor
 png: false
 ---
-
-<!-- Their description. -->
