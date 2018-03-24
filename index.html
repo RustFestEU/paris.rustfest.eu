@@ -55,24 +55,27 @@ bodytags: with-hero
   </section>
 </div>
 
+
+{% assign main_sponsors = site.sponsors | where: "featured", true %}
+
 <div class='popout sponsors'>
   <section>
-    <!--
+    {% if main_sponsors[0] %}
     <h2>Main Sponsors</h2>
     <ul>
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.featured %}
-        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.logoName}}" /></a></li>
-        {% endif %}
+      {% for sponsor in main_sponsors %}
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
       {% endfor %}
     </ul>
-    -->
+    {% endif %}
     <div style="text-align: right">
+    <!--
       <a class="button primary" href="https://cfp.rustfest.eu/events/rustfest-paris">
         Submit to CFP
       </a>
+    -->
       <a class="button primary" href="https://ti.to/asquera-event-ug/rustfest-paris-2018/">
-        Supporter Tickets 
+        Supporter Tickets
       </a>
       <a class="button primary" href="/sponsors/">
         Sponsoring Information
