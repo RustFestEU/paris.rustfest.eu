@@ -1,5 +1,6 @@
 ---
 name: Guillaume Gomez
+jpg: true
 groups: 
   - organizer
 links:
