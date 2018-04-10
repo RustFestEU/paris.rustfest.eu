@@ -1,0 +1,12 @@
+---
+ashley:
+  name: Ashley Williams
+  nick: ag_dubs
+  thumbnailUrl: ashley.jpg
+  links:
+    - icon: github
+      link: https://github.com/ashleygwilliams
+    - icon: twitter
+      link: https://twitter.com/ag_dubs
+  desc: |
+    Ashley is awesome.
