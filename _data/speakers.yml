@@ -1,0 +1,12 @@
+---
+ashley:
+  name: Ashley Williams
+  nick: ag_dubs
+  thumbnailUrl: ashley.jpg
+  links:
+    - icon: github
+      link: https://github.com/ashleygwilliams
+    - icon: twitter
+      link: https://twitter.com/ag_dubs
+  desc: |
+    Ashley is an engineer at Integer32, contracting for Mozilla on the Rust Programming Language. She is a member of the Rust Core team and leads the Rust Community Team. Previously, she worked as an engineer at npm, and currently is the Individual Membership Director on the Node.js Foundation Board of Directors. A long time teacher, Ashley has focused much of her energies on education programs for open source projects, founding NodeTogether in 2016 and currently leading the RustBridge initiative.
