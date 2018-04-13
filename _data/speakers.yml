@@ -24,7 +24,7 @@ vaidehi:
   featured: true
 matt:
   name: Matt Gathu
-  nick: vaidehijoshi
+  nick: mattgathu
   thumbnailUrl: matt.jpg
   links:
     - icon: github
