@@ -95,7 +95,7 @@ The final PR should include:
 
 After merging (or checking out locally) you can go to **<url>/meta/twitter-card-generator/** to see a list of cards showing up. You may edit the _layout file for different descriptions (there's a JSON object), and to change the visuals (e.g. the SVG). 
 
-When you are done, you can just screenshot the cards and save them as a .png image into /assets/zurich/social/ under the same name as the speaker image is. I usually just use Firefox for this, in the devtools you can just right-click a card and click "Screenshot node", which saves a .png file of the correct size automatically into your "Downloads" folder.
+When you are done, you can just screenshot the cards and save them as a .png image into /assets/social/ under the same name as the speaker image is. I usually just use Firefox for this, in the devtools you can just right-click a card and click "Screenshot node", which saves a .png file of the correct size automatically into your "Downloads" folder.
 
 **Note** that these files are recompressed by Twitter as .jpegs, so there is no harm in having large files.
 

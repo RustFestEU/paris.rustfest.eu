@@ -2,8 +2,8 @@
   link: https://ti.to/asquera-event-ug/rustfest-paris-2018/
 - title: News
   link: https://blog.rustfest.eu/
-# - title: Schedule
-#   link: /schedule/
+- title: Talks
+  link: /talks/
 - title: Location
   link: /location/
 - title: Past Events

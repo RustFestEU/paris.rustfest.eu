@@ -114,9 +114,9 @@
     </div>
 
     <footer>
-        RustFest Zürich &nbsp;&middot;&nbsp;
-        September 30-October 1, Zürich, Switzerland &nbsp;&middot;&nbsp;
-        zurich.rustfest.eu
+        RustFest Paris &nbsp;&middot;&nbsp;
+        May 26-27, Paris, France &nbsp;&middot;&nbsp;
+        paris.rustfest.eu
     </footer>
   </div>
 
@@ -124,30 +124,14 @@
 <script>
 var data = [
   ["ashley.jpg","Ashley Williams", "@ag_dubs", "RustBridge Workshop"],
-  ["acrichto.jpg","Alex Crichton", "@alex_crichton", "Tokio: How we hit 88mph"],
-  ["lislis.jpg","Lisa", "lislis.de", "Create Rust games easily"],
-  ["alex.jpg", "Alex Burka", "@durka42", "Impractical Macros"],
-  ["andrea.jpg", "Andrea Lattuada", "@utaal", "A hammer you can only hold by the handle"],
-  ["anselm.jpg", "Anselm Eickhoff", "", "Type-safe & high-perf distributed actor systems with Rust"],
-  ["elisabeth.jpg", "Élisabeth Henry", "", "Rust: an alternative to high-level programming languages?"],
-  ["fedor.jpg", "Fedor Logachev", "@BringerShar", "SHAR, rust gamedev experience."],
-  ["geoffroy.jpg", "Geoffroy Couprie", "", "Macromancy - an introduction to Rust macros"],
-  ["igor.jpg", "Igor Matuszewski", "", "Teaching an IDE to understand Rust"],
-  ["jorge.jpg", "Jorge Aparicio", "@japaricious", "Fearless concurrency in your microcontroller"],
-  ["llogiq.jpg", "Andre 'llogiq' Bogus", "@llogiq", "Rust In Rhymes"],
-  ["mohammed.jpg", "Mohammed Makhlouf", "@msmakhlouf", "Antimony: a real time distributed stream processing system"],
-  ["niklas.jpg", "Niklas Adolfsson", "@niklasad1", "A Rust-based Runtime for the Internet of Things"],
-  ["pierre.jpg", "Pierre Krieger", "@tomaka17", "Mistakes to avoid when writing a wrapper around a C library"],
-  ["thomas.jpg", "Thomas Wickham", "@mackwic", "Testing strategies and pattern for efficient TDD in Rust"],
-  ["felix.jpg", "Felix Klock", "@pnkfelix", "A RustFest Carol"],
-
-  ["yann.jpg", "Yann Leretaille", "", "Networking & Web Workshop"],
+  ["matt.jpg","Matt Gathu", "@swissgathu", "Keynote"],
+  ["vaidehi.jpg","Vaidehi Joshi", "@vaidehijoshi", "Keynote"]
 ];
 var card = document.querySelector('.card');
 
 data.forEach(d => {
   var nc = card.cloneNode(true);
-  nc.querySelector('img').src = '/assets/zurich/speakers/'+d[0];
+  nc.querySelector('img').src = '/assets/speakers/'+d[0];
   nc.querySelector('.speaker').textContent = d[1];
   nc.querySelector('.twitter').textContent = d[2];
   nc.querySelector('.title').textContent = d[3];
