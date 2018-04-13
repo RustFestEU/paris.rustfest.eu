@@ -53,18 +53,6 @@ title: Sponsoring
       </ul>
   </section>
 
-  <section>
-    <h2>Media Partner</h2>
-    <hr />
-      <ul>
-        {% for sponsor in media %}
-          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
-          {% if sponsor.desc %}
-          <li><p>{{sponsor.desc}}</p></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-  </section>
 </div>
 
 
