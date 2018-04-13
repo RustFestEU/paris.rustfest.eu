@@ -51,10 +51,45 @@ bodytags: with-hero
       </div>
 
     </div>
+    <div style="text-align: center">
+      <a class="button primary" href="https://ti.to/asquera-event-ug/rustfest-paris-2018/">
+        Get a Ticket
+      </a>
+    </div>
 
   </section>
 </div>
 
+<div class="">
+  <section id="speakers">
+    <h2>Keynotes by</h2>
+    <ul class="speakers">
+      {% for item in site.data.speakers %}
+        {% assign speaker = item[1] %}
+        {% if speaker.featured %}
+          <li class="speaker-box">
+            <div  class="portrait">
+              <img src="/assets/speakers/{{speaker.thumbnailUrl}}" />
+            </div>
+            <div class="info">
+              <span class="name">{{speaker.name}}</span>
+              <ul class="links">
+                {% for link in speaker.links %}
+                  <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% if speaker.desc %}
+              <div class="desc">
+                {{speaker.desc | markdownify | truncatewords: 50}}
+              </div>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</div>
 
 {% assign main_sponsors = site.sponsors | where: "featured", true %}
 
@@ -69,11 +104,6 @@ bodytags: with-hero
     </ul>
     {% endif %}
     <div style="text-align: right">
-    <!--
-      <a class="button primary" href="https://cfp.rustfest.eu/events/rustfest-paris">
-        Submit to CFP
-      </a>
-    -->
       <a class="button primary" href="https://ti.to/asquera-event-ug/rustfest-paris-2018/">
         Tickets
       </a>
@@ -91,21 +121,6 @@ bodytags: with-hero
     </div>
     <div style="text-align: right">
       <a href="https://blog.rustfest.eu/">» more news</a>
-    </div>
-  </section>
-</div>
-
-<div class='popout videoplaylist'>
-  <section>
-    <h1>RustFest Zürich 2017 - Videos</h1>
-    <p>Want to know what RustFest looks like? Check out the recordings from our last event</p>
-    <div class="embed ratio-16-9">
-      <iframe src="https://www.youtube.com/embed/videoseries?list=PL85XCvVPmGQj9mqbJizw-zi-EhcpS5jTP" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div style="text-align: right">
-      <a class="button primary" href="https://blog.rustfest.eu/past_events/">
-        See more ...
-      </a>
     </div>
   </section>
 </div>
