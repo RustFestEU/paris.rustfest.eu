@@ -29,30 +29,72 @@
     .card {
         background: white;
         width: 600px;
-        height: 300px;
+        height: 314px;
 
         margin: 40px auto;
         box-sizing: border-box;
         padding: 30px 10px;
     }
 
+    .frame,
     .svg {
-        width: 200px; height: 200px;
+        width: 100%; height: 100%;
         transform: rotate(15deg)
+    }
+    [data-frame=""] .frame {
+      display: none;
     }
 
     .card {
         position: relative;
     }
-    .img_speaker {
-        width: 116px;
-        height: 116px;
-        margin: 42px;
-        border-radius: 10px;
+
+
+    :root {
+      --imgbox-size: 200px;
+      --imgbox-dual: 140px;
+      --imgbox-dual-ofs: 40px;
+      --imgbox-ctr-x: calc( 15px + var(--imgbox-size) / 2 );
+      --imgbox-ctr-y: calc( 40px + var(--imgbox-size) / 2 );
     }
-    .card .img_speaker, .card .svg {
+
+    /* single box */
+    .imgbox {
+      position: absolute;
+
+      left: calc( var(--imgbox-ctr-x) - var(--imgbox-size) / 2 );
+      top:  calc( var(--imgbox-ctr-y) - var(--imgbox-size) / 2 );
+
+      width: var(--imgbox-size);
+      height: var(--imgbox-size);
+    }
+
+    /* dual boxes */
+    .imgbox:first-of-type:nth-last-of-type(2) {
+      left: calc( var(--imgbox-ctr-x) - var(--imgbox-dual) / 2 - var(--imgbox-dual-ofs) );
+      top:  calc( var(--imgbox-ctr-y) - var(--imgbox-dual) / 2 - var(--imgbox-dual-ofs) );
+
+      width: var(--imgbox-dual);
+      height: var(--imgbox-dual);
+    }
+    .imgbox:last-of-type:nth-of-type(2) {
+      left: calc( var(--imgbox-ctr-x) - var(--imgbox-dual) / 2 + var(--imgbox-dual-ofs) );
+      top:  calc( var(--imgbox-ctr-y) - var(--imgbox-dual) / 2 + var(--imgbox-dual-ofs) );
+
+      width: var(--imgbox-dual);
+      height: var(--imgbox-dual);
+    }
+
+    .img_speaker {
+      width: 100%;
+    }
+    .img_speaker:not(:last-of-type) {
+      width: 60%;
+      margin: 20%;
+      border-radius: 50%;
+    }
+    .card .img_speaker, .card .svg, .card .frame {
         position: absolute;
-        left: 20px;
     }
 
     .infobox {
@@ -97,10 +139,55 @@
   <body>
 
   <div class="card">
-    <img src="ashley.jpg" alt="speaker" class="img_speaker" />
-    <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="svg" />
+    <div class="imgbox" data-frame="">
+      <img src="/assets/paris/rustbridge.jpg" alt="rustbridge" class="img_speaker">
+    </div>
 
-    <div class="infobox">
+    <section class="infobox" contenteditable spellcheck="false">
+      <span class="twitter">RustFest &amp; @ag_dubs presents:</span>
+      <span class="speaker">RustBridge Workshop returns!</span>
+      <span class="title">
+        <strong>These Weeks in RustFest #4</strong><br>
+        …on RustBridge with Ashley Williams, lineup &amp; final Standard tickets release
+      </span>
+    </section>
+
+    <footer contenteditable spellcheck="false">
+        RustFest Paris 2018&nbsp; ·&nbsp; May 25-26, Paris, France&nbsp; ·&nbsp; paris.rustfest.eu
+    </footer>
+  </div>
+
+  <div class="card">
+    <div class="imgbox" data-frame="/assets/favicons/logo.svg">
+      <img src="/assets/paris/speakers/vaidehi.jpg" alt="speaker" class="img_speaker">
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
+    </div>
+    <div class="imgbox" data-frame="/assets/favicons/logo.svg">
+      <img src="/assets/paris/speakers/matt.jpg" alt="speaker" class="img_speaker">
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
+    </div>
+
+    <section class="infobox" contenteditable spellcheck="false">
+      <span class="twitter">Keynote speaker announcement!</span>
+      <span class="speaker">Vaidehi Joshi & Matt Gathu</span>
+      <span class="title">
+        <strong>These Weeks in RustFest #3</strong><br>
+        …on CfP progress, keynote speakers &amp; the second batch of Standard tickets
+      </span>
+    </section>
+
+    <footer contenteditable spellcheck="false">
+        RustFest Paris 2018&nbsp; ·&nbsp; May 25-26, Paris, France&nbsp; ·&nbsp; paris.rustfest.eu
+    </footer>
+  </div>
+
+  <div class="card">
+    <div class="imgbox" data-frame="/assets/favicons/logo.svg">
+      <img src="https://paris.rustfest.eu/assets/paris/speakers/ashley.jpg" alt="speaker" class="img_speaker" />
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="svg" />
+    </div>
+
+    <section class="infobox">
       <span class="speaker">
         Ashley Williams
       </span>
@@ -111,7 +198,7 @@
       <span class="title">
         RustBridge Workshop
       </span>
-    </div>
+    </section>
 
     <footer>
         RustFest Paris &nbsp;&middot;&nbsp;
@@ -123,15 +210,15 @@
 
 <script>
 var data = [
-  ["ashley.jpg","Ashley Williams", "@ag_dubs", "RustBridge Workshop"],
   ["matt.jpg","Matt Gathu", "@swissgathu", "Keynote"],
-  ["vaidehi.jpg","Vaidehi Joshi", "@vaidehijoshi", "Keynote"]
+  ["vaidehi.jpg","Vaidehi Joshi", "@vaidehijoshi", "Keynote"],
+  ["ashley.jpg","Ashley Williams", "@ag_dubs", "RustBridge Workshop"],
 ];
-var card = document.querySelector('.card');
+var card = document.querySelector('.card:last-of-type');
 
 data.forEach(d => {
   var nc = card.cloneNode(true);
-  nc.querySelector('img').src = '/assets/speakers/'+d[0];
+  nc.querySelector('img').src = '/assets/paris/speakers/'+d[0];
   nc.querySelector('.speaker').textContent = d[1];
   nc.querySelector('.twitter').textContent = d[2];
   nc.querySelector('.title').textContent = d[3];
