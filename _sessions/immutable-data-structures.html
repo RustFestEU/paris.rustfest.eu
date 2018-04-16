@@ -1,0 +1,23 @@
+---
+layout: session
+permalink: /sessions/:name
+type: talk
+
+speakers:
+- bodil
+
+title: Immutable Data Structures And Why You Want Them
+desc: >
+  There's a discrepancy between the careful attention to mutability and immutability in Rust itself and the data structures available in the standard library. The only way to update a Vec with an immutable ref is to clone it first, which could get expensive. But what else can you do?
+  <br>
+  Turns out there's a number of data structures out there that make it cheap and easy to do immutable copies and updates. Some are so simple it's ridiculous, some are anything but, and we're going to dive into some of the more useful ones, how they work, why you should care, and how to best implement them in Rust.
+
+
+socialTwitterCardType: summary_large_image
+socialImageSrc: /assets/social/immutable-data-structures.png
+description: Another perspective on writing robust and maintainable code in Rust.
+
+day: saturday
+
+public: true
+---

@@ -34,3 +34,25 @@ matt:
   desc: |
     Matt is a software developer at JUMO.world in Nairobi. He has a passion in building tech for social impact. He is also the co-organiser of Rust Nairobi, and hopes to make the tech industry a better place by encouraging learning and mentorship in his community. He plays tennis and is a big scrabble fan.
   featured: true
+bodil:
+  name: Bodil Stokke
+  nick: mattgathu
+  thumbnailUrl: bodil.jpg
+  links:
+    - icon: github
+      link: https://github.com/bodil
+    - icon: twitter
+      link: https://twitter.com/bodil
+  desc: |
+    Bodil is a compulsive conference speaker in the fields of functional programming, web technologies and Soviet space dogs, and helps organise multiple developer conferences in the UK and Scandinavia. She's been everywhere from JavaScript to Haskell and has recently been spending quality time with Rust. Most of the time she's not even upset that it doesn't have higher kinded types yet.
+ctz:
+  name: Joe 'ctz' Birr-Pixton
+  nick: ctz
+  thumbnailUrl: joe.jpg
+  links:
+    - icon: github
+      link: https://github.com/ctz
+    - icon: twitter
+      link: https://twitter.com/jpixton
+  desc: |
+    I'm Joe, from Cambridge, England. I've been working in crypto, computer security and embedded development since 2005; building HSMs, mobile authentication, and securing IoT devices.
