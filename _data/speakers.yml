@@ -56,3 +56,21 @@ ctz:
       link: https://twitter.com/jpixton
   desc: |
     I'm Joe, from Cambridge, England. I've been working in crypto, computer security and embedded development since 2005; building HSMs, mobile authentication, and securing IoT devices.
+yu:
+  name: Yu Ding
+  nick: yu
+  thumbnailUrl: yu.jpg
+  links:
+    - icon: github
+      link: https://github.com/dingelish
+  desc: |
+    Yu Ding is a staff security scientist at Baidu X-Lab. His research interest is security issues around Intel SGX and security protocol analysis. He is a zealot of security oriented software development and dedicated to build a memory safety world.
+denis:
+  name: Denis Kolodin
+  nick: denis
+  thumbnailUrl: denis.jpg
+  links:
+    - icon: github
+      link: https://github.com/DenisKolodin
+  desc: |
+    Team Lead at Exonum, Bitfury Group, Rust developer. Experience in software development more than 12 years. 3 last years I use Rust full-time. I created: HFT-robots, OTT-services, many corporate projects. Now I working on blockchain solutions and believe in WebAssembly revolution.

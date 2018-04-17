@@ -1,0 +1,23 @@
+---
+layout: session
+permalink: /sessions/:name
+type: talk
+
+speakers:
+- yu
+
+title: Bringing Intel SGX to the Rust Ecosystem
+desc: >
+  In this talk, we introduce Rust SGX SDK (future code name MesaLock SGX), which can protect secrets from most attacks by combining the power of Intel SGX and Rust.
+  <br>
+  Intel SGX is the next generation trusted computing technique supported in almost all recent Intel CPUs. It provides strong security guarantees and uses a completely different os/threading model, but lacks memory safety guarantees. We show how we ported Rust `std` and a series of fundamental and popular Rust crates into the Rust-SGX world. What's more, we support Xargo by providing a new target platform as `x86_64-unknown-linux-sgx`.
+
+
+socialTwitterCardType: summary_large_image
+socialImageSrc: /assets/social/mesalock-sgx.png
+description: On using Rust for providing memory safety to Intel SGX's hardware-assisted trusted execution environment.
+
+day: saturday
+
+public: true
+---
