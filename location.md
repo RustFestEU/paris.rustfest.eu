@@ -118,6 +118,7 @@ This time we will be hosted by [Mozilla Paris](https://wiki.mozilla.org/Paris) a
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3402649164199834%2C48.87043834993238%2C2.342174649238587%2C48.87350454058211&amp;layer=mapnik&amp;marker=48.871971468746175%2C2.3412197828292847" style="border: 1px solid black"></iframe>
 </section>
 
+For more information you can read [about `impl Days`](/about_impl_days/).
 
 <section markdown="1">
 ## Additional information
