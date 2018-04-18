@@ -74,3 +74,25 @@ denis:
       link: https://github.com/DenisKolodin
   desc: |
     Team Lead at Exonum, Bitfury Group, Rust developer. Experience in software development more than 12 years. 3 last years I use Rust full-time. I created: HFT-robots, OTT-services, many corporate projects. Now I working on blockchain solutions and believe in WebAssembly revolution.
+henri:
+  name: Henri Sivonen
+  nick: henri
+  thumbnailUrl: henri.jpg
+  links:
+    - icon: github
+      link: https://github.com/hsivonen
+    - icon: twitter
+      link: https://twitter.com/hsivonen
+  desc: |
+    Henri started participating in the Mozilla project in 1999 and now works at Mozilla on the Gecko engine. In late 2012, as his first Rust project, he started porting Gecko's HTML parser, which he wrote, to Rust, but the project was abandoned due to a change in priorities. He returned to Rust post-1.0 to write the encoding_rs crate as a replacement of Gecko's previous character encoding conversion library.
+tyler:
+  name: Tyler Neely
+  nick: tyler
+  thumbnailUrl: tyler.jpg
+  links:
+    - icon: github
+      link: https://github.com/spacejam
+    - icon: twitter
+      link: https://twitter.com/sadisticsystems
+  desc: |
+     After years of getting whooped by bugs at scale at various North American infrastructure companies, Tyler moved to Berlin where he spends his days reading papers, finding bugs in complex systems, and building Sled - a modern embedded database for the Rust ecosystem. He believes on-call people should sleep as long as they want.
