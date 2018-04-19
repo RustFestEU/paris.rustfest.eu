@@ -41,9 +41,46 @@ bootstrapped atop ML. Either way, there's plenty of tasks for all
 contributors at `impl Days`.
 
 You do not need to buy a separate ticket for `impl Days`; your Rust
-Fest ticket will suffice. **However**, the `impl Days` venue is
-limited in space compared to the main RustFest venue, so we are asking
-everyone who plans to attend `impl Days` to tell us:
+Fest ticket will suffice. However, the `impl Days` venue,
+<a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}}</a>,
+is more limited in space than the main RustFest venue.
 
+Thus, we are asking everyone who plans to attend `impl Days` to tell us,
+via the button at the 
+<a href="#sign_up_button">bottom of this page</a>
+
+## What will happen at `impl Days`?
+
+<a href="/people/pnkfelix">Felix Klock (pnkfelix)</a> will act as
+coordinator, striving to aid participants in their efforts to
+contribute to the Rust language, ecosystem, and community.
+
+Felix requests that participants come to the Mozilla Paris office in
+the morning between 9 and 9:30 AM. We will spend some time each
+morning getting to know each other, and then identify tasks for
+participants to collaborate on. There will be coffee provided at the
+venue, and a break for a lunch at noon. Each of the two `impl Days`
+will start winding down around 5 PM. All participants must, with heavy
+hearts, vacate the Mozilla premises each day by 6 PM.
+
+  * Of course all participants are free to arrive later and depart
+    earlier than the times specified above.
+
+  * We anticipate that some participants may even decide partway
+    through the session that exploring the city of Paris is a more
+    attractive way to spend their day than wrestling with Rust's
+    borrow checker.
+
+For ideas of what kinds of tasks we all might work on, check out the
+blog post describing 
+<a href="https://blog.rust-lang.org/2018/03/12/roadmap.html">Rust's roadmap for 2018</a>.
+
+(We will make more detailed plans on-the-fly at `impl Days` itself,
+based on the skill sets of the people who show up to contribute.)
+
+So, if this sounds interesting to you, here's how you sign up:
+
+<a id="sign_up_button">
 <a class="button primary" href="https://ti.to/url-to-do"> "Yes I want
 to code at `impl Days` Paris!"</a>
+</a>
