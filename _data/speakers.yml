@@ -96,3 +96,25 @@ tyler:
       link: https://twitter.com/sadisticsystems
   desc: |
      After years of getting whooped by bugs at scale at various North American infrastructure companies, Tyler moved to Berlin where he spends his days reading papers, finding bugs in complex systems, and building Sled - a modern embedded database for the Rust ecosystem. He believes on-call people should sleep as long as they want.
+dirkjan:
+  name: Dirkjan Ochtman
+  nick: dirkjan
+  thumbnailUrl: dirkjan.jpg
+  links:
+    - icon: github
+      link: https://github.com/djc
+    - icon: twitter
+      link: https://twitter.com/djco
+  desc: |
+    As a long-time software engineer, the leverage Rust offers to productivity and software reliability is very exciting to me. I believe Rust's powerful type system, low footprint and high performance make it possible to tackle software engineering challenges that I'd previously have shied away from, including low-level things like networking performance and widely distributed systems.
+nical:
+  name: Nicolas Silva
+  nick: nical
+  thumbnailUrl: nical.jpg
+  links:
+    - icon: github
+      link: https://github.com/nical
+    - icon: twitter
+      link: https://twitter.com/nicalsilva
+  desc: |
+    Nicolas (aka Nical) is a graphics engineer at Mozilla, currently working on WebRender which will soon bring even more Rust to your favorite web browser.
