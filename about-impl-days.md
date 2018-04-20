@@ -45,9 +45,8 @@ Fest ticket will suffice. However, the `impl Days` venue,
 <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}}</a>,
 is more limited in space than the main RustFest venue.
 
-Thus, we are asking everyone who plans to attend `impl Days` to tell us,
-via the button at the 
-<a href="#sign_up_button">bottom of this page</a>
+Thus, everyone who plans to attend `impl Days` should tell us
+explicitly on the online questionnaire built into the RustFest ticket.
 
 ## What will happen at `impl Days`?
 
@@ -77,10 +76,3 @@ blog post describing
 
 (We will make more detailed plans on-the-fly at `impl Days` itself,
 based on the skill sets of the people who show up to contribute.)
-
-So, if this sounds interesting to you, here's how you sign up:
-
-<a id="sign_up_button">
-<a class="button primary" href="https://ti.to/url-to-do"> "Yes I want
-to code at `impl Days` Paris!"</a>
-</a>
