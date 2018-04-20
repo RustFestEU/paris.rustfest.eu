@@ -118,3 +118,25 @@ nical:
       link: https://twitter.com/nicalsilva
   desc: |
     Nicolas (aka Nical) is a graphics engineer at Mozilla, currently working on WebRender which will soon bring even more Rust to your favorite web browser.
+jonathan:
+  name: Jonathan Pallant
+  nick: jonathan
+  thumbnailUrl: jonathan.jpg
+  links:
+    - icon: github
+      link: https://github.com/thejpster
+    - icon: twitter
+      link: https://twitter.com/therealjpster
+  desc: |
+    Senior Embedded Systems Consultant at Cambridge Consultants, specialising in wireless communications systems. MEng in Computer Systems Engineering from the University of Warwick, England. Organiser of #CambridgeRust. Inveterate tinkerer. Raspberry Pi enthusiast.
+tigran:
+  name: Tigran Bayburtsyan
+  nick: tigran
+  thumbnailUrl: tigran.jpg
+  links:
+    - icon: github
+      link: https://github.com/tigranbs
+    - icon: twitter
+      link: https://twitter.com/tigranbs
+  desc: |
+    I've studied Applied mathematics at Yerevan State University (Bachelors). Most of my career worked as a freelancer, technical supervisor and independent consultant for different companies helping them to build scalable applications (frontend and backend). Had previous small startup exit and started TreeScale as a core game changing technology for building scalable real time applications. Made solo trip across Europe (~6000KM) on a Motorcycle, and Skiing all winter.
