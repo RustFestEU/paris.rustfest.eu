@@ -5,7 +5,7 @@ permalink: /about_impl_days/
 ---
 
 `impl Days` is a sibling event of RustFest&lt;Paris&gt;, sponsored by
-Mozilla. `impl Days` is an open-ended time for Rust contributors to
+Mozilla and 1aim. `impl Days` is an open-ended time for Rust contributors to
 collaborate in an active programming session.  It will take place on
 the two days following the RustFest talks and workshops,
 {{site.dates.impl_days_no_br}}.
