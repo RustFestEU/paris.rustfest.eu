@@ -15,7 +15,7 @@ permalink: /location/
 
 <section>
 <p>
-Paris is the largest city in France, located in the northern part of the country. It is the heart of the Île-de-France region which spans over 12,000 km², and the largest urban area in the European Union. 
+Paris is the largest city in France, located in the northern part of the country. It is the heart of the Île-de-France region which spans over 12,000 km², and the largest urban area in the European Union.
 </p>
 
 <p>
@@ -115,10 +115,12 @@ If you just want a ticket to go to a specific station once, then the price can s
 ### impl days (May, 28th and 29th)
 
 This time we will be hosted by [Mozilla Paris](https://wiki.mozilla.org/Paris) at `16bis Boulevard Montmartre, 75009 Paris, France`.
-<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3402649164199834%2C48.87043834993238%2C2.342174649238587%2C48.87350454058211&amp;layer=mapnik&amp;marker=48.871971468746175%2C2.3412197828292847" style="border: 1px solid black"></iframe>
-</section>
 
 For more information you can read [about `impl Days`](/about_impl_days/).
+
+<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3402649164199834%2C48.87043834993238%2C2.342174649238587%2C48.87350454058211&amp;layer=mapnik&amp;marker=48.871971468746175%2C2.3412197828292847" style="border: 1px solid black"></iframe>
+
+</section>
 
 <section markdown="1">
 ## Additional information

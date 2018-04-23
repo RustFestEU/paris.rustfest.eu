@@ -4,6 +4,16 @@ title: "What is `impl Days`"
 permalink: /about_impl_days/
 ---
 
+<div class="backdrop" style="background: url(/assets/paris/the-city.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
+  <div class="popout">
+    <section>
+      <h1>impl Days</h1>
+    </section>
+  </div>
+</div>
+
+<section markdown="1">
+
 `impl Days` is a sibling event of RustFest&lt;Paris&gt;, sponsored by
 Mozilla and 1aim. `impl Days` is an open-ended time for Rust contributors to
 collaborate in an active programming session.  It will take place on
@@ -27,7 +37,7 @@ the event here in Paris.
 
 ## `impl Days` Paris
 
-The event is being hosted at <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}}</a>. 
+The event is being hosted at <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}}</a>.
 
 `impl Days` is a great chance to work directly with other Rust
 enthusiasts. The Rust project is supported by volunteers across the
@@ -71,8 +81,10 @@ hearts, vacate the Mozilla premises each day by 6 PM.
     borrow checker.
 
 For ideas of what kinds of tasks we all might work on, check out the
-blog post describing 
+blog post describing
 <a href="https://blog.rust-lang.org/2018/03/12/roadmap.html">Rust's roadmap for 2018</a>.
 
 (We will make more detailed plans on-the-fly at `impl Days` itself,
 based on the skill sets of the people who show up to contribute.)
+
+</section>
