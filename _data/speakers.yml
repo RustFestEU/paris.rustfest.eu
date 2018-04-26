@@ -140,3 +140,15 @@ tigran:
       link: https://twitter.com/tigranbs
   desc: |
     I've studied Applied mathematics at Yerevan State University (Bachelors). Most of my career worked as a freelancer, technical supervisor and independent consultant for different companies helping them to build scalable applications (frontend and backend). Had previous small startup exit and started TreeScale as a core game changing technology for building scalable real time applications. Made solo trip across Europe (~6000KM) on a Motorcycle, and Skiing all winter.
+llogiq:
+  name: Andre 'llogiq' Bogus
+  thumbnailUrl: llogiq.jpg
+  links:
+    - icon: website
+      link: https://llogiq.github.io/
+    - icon: github
+      link: https://github.com/llogiq
+    - icon: twitter
+      link: https://twitter.com/llogiq
+  desc: |
+    The quintessential Rust bard Musician by heart, programmer by trade, Rustacean, Lint maven, Rust Tools peer, nags weekly on rust-users and reddit.
