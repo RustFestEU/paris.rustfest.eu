@@ -10,6 +10,17 @@ ashley:
       link: https://twitter.com/ag_dubs
   desc: |
     Ashley is an engineer at Integer32, contracting for Mozilla on the Rust Programming Language. She is a member of the Rust Core team and leads the Rust Community Team. Previously, she worked as an engineer at npm, and currently is the Individual Membership Director on the Node.js Foundation Board of Directors. A long time teacher, Ashley has focused much of her energies on education programs for open source projects, founding NodeTogether in 2016 and currently leading the RustBridge initiative.
+katharina:
+  name: Katharina
+  nick: spacekookie
+  thumbnailUrl: katharina.jpg
+  links:
+    - icon: github
+      link: https://github.com/spacekookie
+    - icon: twitter
+      link: https://twitter.com/spacekookie
+  desc: |
+    Katharina is a computer science student in Berlin who works part-time as a software developer at Asquera. She’s been writing Rust for about a year, is author of many crates and is an active community member. Currently she’s part of the CLI working group and generally interested in making developer experiences in Rust more ergonomic and boilerplate-free.
 vaidehi:
   name: Vaidehi Joshi
   nick: vaidehijoshi
