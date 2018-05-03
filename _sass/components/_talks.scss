@@ -86,7 +86,7 @@
       }
 
       img {
-        width: 80%;
+        width: 150px;
         display: inline-block;
         margin: 0.5em auto;
 
@@ -103,6 +103,9 @@
       text-align: justify;
       font-size: 0.65em;
       font-weight: normal;
+      p {
+        max-width: 1000px;
+      }
     }
 
     .links {
