@@ -163,3 +163,13 @@ llogiq:
       link: https://twitter.com/llogiq
   desc: |
     The quintessential Rust bard Musician by heart, programmer by trade, Rustacean, Lint maven, Rust Tools peer, nags weekly on rust-users and reddit.
+malwine:
+  name: Malwine
+  thumbnailUrl: malwine.jpg
+  links:
+    - icon: website
+      link: http://malweene.com/sketchnotes/
+    - icon: twitter
+      link: https://mobile.twitter.com/malweene
+  desc: |
+     Currently I am studying computer science and working as a software developer part time. I organize ClojureBridge Berlin and helped at eurucamp. Community is very important to me. I love to create open, welcoming, accessible and inclusive spaces where people can meet and learn. With some good friends I started the Feminist Comic Network to promote intersectional and inclusive feminism in comics. I give talks and workshops about programming and drawing.
