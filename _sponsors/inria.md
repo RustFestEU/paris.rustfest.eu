@@ -2,6 +2,7 @@
 name: "Inria"
 link: "https://www.inria.fr/"
 featured: false
-group: venue
+level: silver
+group: sponsor
 png: false
 ---
