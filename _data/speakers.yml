@@ -173,3 +173,18 @@ malwine:
       link: https://mobile.twitter.com/malweene
   desc: |
      Malwine is a computer science student and software developer who has always been passionate for drawing. In 2015 she got into sketchnoting at a Clojure conference. Since then there have been numerous conferences where she created sketchnotes. With some friends she is currently founding the [@sketchnoteclub](https://twitter.com/sketchnoteclub) as a network for sketchnoters around the globe.
+yann:
+  name: "Yann Leretaille"
+  desc: "Yann Leretaille is a French-German tech entrepreneur and think-tank founder. He is the CTO and a co-founder of 1aim, a startup aimed at redefining how buildings work, as well as how we relate to the objects around us, and the Good Technology Collective. The collective advocates for rational data collection, greater public awareness of data gathering and use, and the importance of reframing the narrative of a future society centered around Internet of Things (IoT) to one based around the concept of intelligence by design."
+  thumbnailUrl: yann.jpg
+  links:
+    - icon: website
+      link: http://1aim.com
+hoverbear:
+  name: "Hoverbear"
+  desc: "An explorer of distributed systems. Engineer at PingCAP."
+  links:
+    - icon: website
+      link: http://hoverbear.org
+    - icon: website
+      link: http://pingcap.com
