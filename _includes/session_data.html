@@ -24,7 +24,11 @@
 
               <div id="{{ speaker.name | slugify }}" class="speaker">
                 <div class="portrait">
+                  {% if speaker.thumbnailUrl %}
                   <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" />
+                  {% else %}
+                  <img src="/assets/speakers/no-photo.jpg" />
+                  {% endif %}
                 </div>
                 <div class="desc">
                   <h3 class="name">{{speaker.name}}</h3>
