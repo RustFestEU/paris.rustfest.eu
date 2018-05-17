@@ -128,7 +128,7 @@ For more information you can read [about `impl Days`](/about_impl_days/).
 <ul>
   <li>Yes, you can drink the tap water.</li>
   <li>The local currency is € (EUR).</li>
-  <li>The local power socket is the EU one. You may need an adaptor.</li>
+  <li>The local power socket is the EU one. You may need an adapter.</li>
   <li>Paris is generally fairly expensive compared to other European cities, be prepared to pay a bit more for your favorite bread, wine, and cheese.</li>
 </ul>
 </section>
