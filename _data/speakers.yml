@@ -192,5 +192,53 @@ hoverbear:
 
 oliver:
   name: "Oliver Schneider"
-  desc: "Studied Computer science at the University of Karlsruhe (KIT) Currently writing a PhD thesis on practical application of static analyses in software engineering also at the KIT * Workshop at RustBeltRust 2016 about writing static analysis in Rust (clippy) * Plenum discussion at Ada Europe 2017 about the future of safety minded languages * Talk about miri at FOSDEM 2018 "
+  desc: "Studied Computer science at the University of Karlsruhe (KIT). Currently writing a PhD thesis on practical application of static analyses in software engineering also at the KIT. Workshop at RustBeltRust 2016 about writing static analysis in Rust (clippy). Plenum discussion at Ada Europe 2017 about the future of safety minded languages. Talk about miri at FOSDEM 2018."
   links:
+
+maciej:
+  name: "Maciej Hirsz"
+  desc: "Maciej has worked as a developer for over a decade and has been working at Parity Technologies since the beginning of 2017. In his free time he likes to build parsers and compilers."
+  links:
+    - icon: github
+      link: https://github.com/maciejhirsz
+    - icon: twitter
+      link: https://twitter.com/MaciejHirsz
+  thumbnailUrl: maciej.jpg
+
+tomaka:
+  name: "Pierre Krieger"
+  desc: "After writing C++ for about ten years, Pierre has switched to Rust in 2013. Since then he has been involved in the Rust community where he has been maintaining several popular open source gamedev and graphics programming-related crates. He is now involved in blockchains and decentralized technologies at Parity Technologies."
+  links:
+    - icon: github
+      link: https://github.com/tomaka
+    - icon: twitter
+      link: https://twitter.com/tomaka17
+  thumbnailUrl: tomaka.png
+
+andresilva:
+  name: "André Silva"
+  desc: "André is a software engineer who works for Parity Technologies. He started learning Rust in 2015 in his spare time and found his way into professional Rust work through open-source contributions. His interests revolve around distributed systems, programming languages and functional programming."
+  links:
+    - icon: github
+      link: https://github.com/andresilva
+  thumbnailUrl: andresilva.png
+
+jack:
+  name: "Jack Fransham"
+  desc: "Jack has been programming professionally since the age of 16, and over the past 6 years has had a wide range of jobs all over western Europe - finally ending up in Berlin working on blockchain tech. He got into the Rust community early, having discovered it through a passing interest in cryptography. Since then he has written most of his personal projects (and, when he can get away with it, his professional projects) using the language, and has contributed to the community by answering questions on Reddit and IRC and writing articles about using Rust. He is currently working on a Rust implementation of the libp2p networking library."
+  links:
+    - icon: github
+      link: https://github.com/Vurich
+    - icon: twitter
+      link: https://twitter.com/meatwithdreams
+  thumbnailUrl: jack.jpg
+
+tomasz:
+  name: "Tomasz Drwięga"
+  desc: ""
+  links:
+    - icon: github
+      link: https://github.com/tomusdrw
+    - icon: twitter
+      link: https://twitter.com/tomusdrw
+  thumbnailUrl: tomasz.jpg
