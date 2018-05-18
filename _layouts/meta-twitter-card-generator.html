@@ -231,6 +231,56 @@
     </footer>
   </div>
 
+  <hr />
+  <h1 id="workshops">Workshops</h1>
+  <hr />
+
+  {% assign talks_data = site.sessions | where: "type", "workshop" | sort: "display_first" | reverse %}
+  {% for talk in talks_data %}
+    {% if talk.public %}
+    <div class="card">
+        {% for spk in talk.speakers %}
+          {% assign speaker = site.data.speakers[spk] %}
+          <div class="imgbox" data-frame="/assets/favicons/logo.svg">
+            {% if speaker.thumbnailUrlSquare %}
+            <img src="/assets/paris/speakers/{{speaker.thumbnailUrlSquare}}" alt="speaker" class="img_speaker" />
+            {% else %}
+            <img src="/assets/paris/speakers/{{speaker.thumbnailUrl}}" alt="speaker" class="img_speaker" />
+            {% endif %}
+            <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="svg" />
+          </div>
+        {% endfor %}
+
+      <section class="infobox">
+        <span class="twitter">
+          RustFest presents:
+        </span>
+
+        <span class="speaker">
+          {{ talk.title }}
+        </span>
+
+        <span class="title">
+          with
+          {% for speaker in talk.speakers %}
+          {{ site.data.speakers[speaker].name }}
+          {% unless forloop.last %}and{% endunless %}
+          {% endfor %}</h2>
+        </span>
+      </section>
+
+      <footer>
+        RustFest Paris &nbsp;&middot;&nbsp;
+        May 26-27, Paris, France &nbsp;&middot;&nbsp;
+        paris.rustfest.eu
+      </footer>
+    </div>
+    {% endif %}
+  {% endfor %}
+
+  <hr />
+  <h1 id="end">Misc</h1>
+  <hr />
 
 <script>
 var data = [
