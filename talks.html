@@ -13,7 +13,7 @@ title: Talks
 <div>
   <section>
     <ul class="talks">
-      {% assign talks_data = site.sessions | where: "type", "talk" | sort: "keynote" | reverse %}
+      {% assign talks_data = site.sessions | where: "type", "talk" | sort: "special" | reverse %}
       {% for talk in talks_data %}
         {% assign speaker = site.data.speakers[talk.speakers.first] %}
         {% if talk.public %}
