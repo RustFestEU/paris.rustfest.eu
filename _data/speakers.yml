@@ -216,6 +216,14 @@ tomaka:
       link: https://twitter.com/tomaka17
   thumbnailUrl: tomaka.png
 
+andresilva:
+  name: "André Silva"
+  desc: "André is a software engineer who works for Parity Technologies. He started learning Rust in 2015 in his spare time and found his way into professional Rust work through open-source contributions. His interests revolve around distributed systems, programming languages and functional programming."
+  links:
+    - icon: github
+      link: https://github.com/andresilva
+  thumbnailUrl: andresilva.png
+
 jack:
   name: "Jack Fransham"
   desc: "Jack has been programming professionally since the age of 16, and over the past 6 years has had a wide range of jobs all over western Europe - finally ending up in Berlin working on blockchain tech. He got into the Rust community early, having discovered it through a passing interest in cryptography. Since then he has written most of his personal projects (and, when he can get away with it, his professional projects) using the language, and has contributed to the community by answering questions on Reddit and IRC and writing articles about using Rust. He is currently working on a Rust implementation of the libp2p networking library."
