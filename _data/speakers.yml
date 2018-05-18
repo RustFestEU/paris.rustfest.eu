@@ -194,6 +194,7 @@ oliver:
   name: "Oliver Schneider"
   desc: "Studied Computer science at the University of Karlsruhe (KIT). Currently writing a PhD thesis on practical application of static analyses in software engineering also at the KIT. Workshop at RustBeltRust 2016 about writing static analysis in Rust (clippy). Plenum discussion at Ada Europe 2017 about the future of safety minded languages. Talk about miri at FOSDEM 2018."
   links:
+  thumbnailUrl: oliver.jpg
 
 maciej:
   name: "Maciej Hirsz"
@@ -232,6 +233,7 @@ jack:
     - icon: twitter
       link: https://twitter.com/meatwithdreams
   thumbnailUrl: jack.jpg
+  thumbnailUrl: jack2.png
 
 tomasz:
   name: "Tomasz Drwięga"
