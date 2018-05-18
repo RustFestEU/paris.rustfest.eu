@@ -7,7 +7,16 @@
   // @include flex-wrap(wrap);
   @include justify-content(space-around);
 
-  .speakers { justify-content: left;}
+  .speakers { justify-content: left; }
+
+  .badge {
+    padding: 0 0.5em;
+    border: 1px solid $brand_blue;
+    margin-right: 0.5em;
+    background: $brand_blue;
+    color: white;
+    font-weight: 600;
+  }
 
   list-style: none;
   padding: 0;
@@ -47,6 +56,9 @@
 
   a {
     color: black;
+    :hover {
+        color: $brand_blue;
+    }
   }
 
   h2 {

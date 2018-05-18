@@ -6,80 +6,57 @@ title: Schedule
 
 <div class='popout'>
   <section>
-    <h1>RustFest Zürch 2017 - Schedule {% include icons/calendar.svg %}</h1>
-    <h2>Location: <a href="/location/">ETH Zentrum, Sonneggstrasse 5, 8092 Zurich</a>.</h2>
+    <h1>RustFest {{site.location.city}} {{site.dates.year}} - Schedule {% include icons/calendar.svg %}</h1>
+    <h2>Location: <a href="/location/">{{site.location.venue}}, 199 bis, rue Saint-Martin, 75003 Paris.</a>.</h2>
   </section>
 </div>
 
 <div class='schedule'>
   <section>
-    <h1 class="title">Sunday, 1st October</h1>
-    <span style="margin-left: 3em; font-style: italic">aka "Working hard all day in the shop"</span>
-
-    <table cellspacing='0'>
-      <tr class="breaks">
-        <td class="time">09<span>30</span></td>
-        <td class="centered">Floor opens</td>
-      </tr>
-      {% include _schedule_session.html session="acrichto" %}
-      <tr class="breaks">
-        <td class="time">10<span>45</span></td>
-        <td class="centered">Transition</td>
-      </tr>
-      {% include _schedule_session.html session="ashley" %}
-      {% include _schedule_session.html session="workshop-networking" %}
-      {% include _schedule_session.html session="workshop-embedded" %}
-      {% include _schedule_session.html session="workshop-machine-learning" %}
-      {% include _schedule_session.html session="workshop-etherium" %}
-      {% include _schedule_session.html session="workshop-wasm" %}
-      {% include _schedule_session.html session="workshop-games" %}
-    </table>
-  </section>
-
-  <section>
-    <h1 class="title">Saturday, 30th September</h1>
+    <h1 class="title">Saturday, 26th May</h1>
     <span style="margin-left: 3em; font-style: italic">aka "Talks, Talks, Talks"</span>
 
     <table cellspacing='0'>
       <tr class="breaks">
-        <td class="time">08<span>00</span></td>
+        <td class="time">08<span>30</span></td>
         <td class="centered">Registration opens</td>
       </tr>
       <tr class="breaks">
-        <td class="time">08<span>20</span></td>
+        <td class="time">09<span>00</span></td>
         <td class="centered">Welcome & Sponsors</td>
       </tr>
-      {% include _schedule_session.html session="felix" %}
-      {% include _schedule_session.html session="elisabeth" %}
-      {% include _schedule_session.html session="geoffroy" %}
-      {% include _schedule_session.html session="alex" %}
+      {% assign talks_data = site.sessions | where: "day", "saturday" | sort: "start" %}
+    {% for talk in talks_data %}
+      {% if talk.type == 'break' %}
       <tr class="breaks">
-        <td class="time">10<span>55</span></td>
-        <td class="centered">Break</td>
+        <td class="time">{{talk.start | split: ":" | join: "<span>" }}</span></td>
+        <td class="centered">{{ talk.title }}</td>
       </tr>
-      {% include _schedule_session.html session="mohammed" %}
-      {% include _schedule_session.html session="thomas" %}
-      <tr class="breaks">
-        <td class="time">12<span>20</span></td>
-        <td class="centered">Lunch Announcements & Break</td>
+      {% elsif talk.special == null or talk.special == 'Keynote' %}
+      <tr>
+        <td class="time"><a href="/sessions/{{talk.slug}}">
+          {{talk.start | split: ":" | join: "<span>" }}</span>
+        </a></td>
+        <td><a href="/sessions/{{talk.slug}}">
+          <div class='talk_info'>
+            {% if talk.special %}<span class="badge">Keynote</span>{% endif %}
+            {% if talk.type == 'workshop' %}<i>Workshop:</i>{% endif %}
+            {{talk.title}}<br>
+            {% if talk.room %}Room: <b>{{talk.room}}</b>{% endif %}
+          </div>
+          <div class='speakers'>
+            {% for person in talk.speakers %}
+            <div class='speaker'>
+              {% assign speaker = site.data.speakers[person] %}
+              <img src="/assets/paris/speakers/{{speaker.thumbnailUrl}}" />
+              {{speaker.name}}
+            </div>
+            {% endfor %}
+          </div>
+        </a></td>
       </tr>
-      {% include _schedule_session.html session="igor" %}
-      {% include _schedule_session.html session="niklas" %}
-      {% include _schedule_session.html session="andrea" %}
-      <tr class="breaks">
-        <td class="time">14<span>55</span></td>
-        <td class="centered">Coffee Break</td>
-      </tr>
-      {% include _schedule_session.html session="jorge" %}
-      {% include _schedule_session.html session="pierre" %}
-      {% include _schedule_session.html session="llogiq" %}
-      <tr class="breaks">
-        <td class="time">16<span>45</span></td>
-        <td class="centered">Coffee Break</td>
-      </tr>
-      {% include _schedule_session.html session="lislis" %}
-      {% include _schedule_session.html session="fedor" %}
-      {% include _schedule_session.html session="anselm" %}
+      {% endif %}
+    {% endfor %}
       <tr class="breaks">
         <td class="time">18<span>40</span></td>
         <td class="centered">Closing Announcements</td>
