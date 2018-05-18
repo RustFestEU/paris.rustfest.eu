@@ -235,7 +235,7 @@ jack:
 
 tomasz:
   name: "Tomasz Drwięga"
-  desc: ""
+  desc: "Frontend and Rust programmer, with a few years of experience in startups and corporations. Currently focusing 100% on building blockchain tech in Rust working for Parity Technologies."
   links:
     - icon: github
       link: https://github.com/tomusdrw
