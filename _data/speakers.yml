@@ -233,7 +233,7 @@ jack:
     - icon: twitter
       link: https://twitter.com/meatwithdreams
   thumbnailUrl: jack.jpg
-  thumbnailUrl: jack2.png
+  thumbnailUrlSquare: jack2.png
 
 tomasz:
   name: "Tomasz Drwięga"
