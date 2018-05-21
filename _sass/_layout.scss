@@ -53,6 +53,13 @@ section ol {
     color: $brand_yellow;
     font-style: bold;
   }
+
+  .note {
+    font-size: 0.8em;
+    a, a:visited {
+      color: $brand_yellow;
+    }
+  }
 }
 
 .cfp-button {
