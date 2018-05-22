@@ -98,7 +98,7 @@ Although it's common to use bikes (or maybe not?) in the rest of the world, it's
 
 All public transports (metro, bus, tramway, RER) are handled by the same company in Paris, bus, so one ticket will allow you to travel anywhere (inside the city and the closest towns).
 
-The "best" transport ticket (because it provides unlimited transport for a day) is called [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis). In Paris, you have 5 different areas (1 being Paris and the bigger the number gets, the more far you are from it) and depending on your ticket, you can't go to all of them. We can assume that you'll arrive at the Charles-de-Gaulle airport or at the Orly one which means you'll be in zone 3. Therefore, the best way would certainly be to take a [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) ticket which covers the area 1 to 3 (it costs 10€ a day).
+The "best" transport ticket (because it provides unlimited transport for a day) is called [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis). In Paris, you have 5 different areas (1 being Paris and the bigger the number gets, the more far you are from it) and depending on your ticket, you can't go to all of them. We can assume that you'll arrive at the Charles-de-Gaulle airport or at the Orly one which means you'll be in zone 5. Therefore, the best way would certainly be to take a [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) ticket which covers the area 1 to 5.
 
 However, since we can assume that you'll stay in Paris for at least two days, we recommend you the [Paris visite](https://www.ratp.fr/titres-et-tarifs/forfait-paris-visite) ticket. It's more advantageous than the [Mobilis](https://www.ratp.fr/titres-et-tarifs/mobilis) one starting two days.
 
