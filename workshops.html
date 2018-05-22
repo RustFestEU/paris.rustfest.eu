@@ -46,6 +46,17 @@ title: Workshops
                 {% endfor %}
               <div class="abstract">
                 {{talk.desc | markdownify}}
+
+                {% if talk.room %}
+                  <div class="room">
+                    <b>📍 Location:</b>
+                    {% if talk.roomUrl %}
+                      <a href="{{talk.roomUrl}}">{{talk.room}}</a>
+                    {% else %}
+                      {{talk.room}}
+                    {% endif %}
+                  </div>
+                {% endif %}
               </div>
             </div>
           </li>
