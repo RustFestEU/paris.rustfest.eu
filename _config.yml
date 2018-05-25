@@ -15,6 +15,7 @@ socialImageSrc: "/assets/favicons/logo.png"
 location:
   venue: "Espace Saint-Martin"
   impl_days: "Mozilla Paris"
+  impl_days_overflow: "Formeret Espace Cléry"
   city: "Paris"
   country: "France"
 

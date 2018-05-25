@@ -10,18 +10,11 @@ bodytags: with-hero
     <h2 style="color: #bf0000;">All tickets have been sold!</h2>
 
     <div class="itemgroup">
-
       <div>
         <p class="desc">Talks</p>
         <p>
-          {{site.dates.talks}}, {{site.dates.year}}
-        </p>
-      </div>
-
-      <div>
-        <p class="desc">Workshops</p>
-        <p>
-          {{site.dates.workshops}}, {{site.dates.year}}
+          {{site.dates.talks}}, {{site.dates.year}} <br>
+          <a href="/schedule/" class="highlight">Talks</a>
         </p>
       </div>
 
@@ -34,7 +27,35 @@ bodytags: with-hero
           </address>
         </p>
       </div>
-
+    </div>
+    <div class="itemgroup">
+      <div>
+        <p class="desc">Workshops</p>
+        <p>
+          {{site.dates.workshops}}, {{site.dates.year}}<br />
+          <a href="/workshops/" class="highlight">Workshops</a>
+        </p>
+      </div>
+      <div class="location">
+        <p class="desc">Workshop Locations</p>
+        <p>
+          <address title="Address">
+            <a href="https://goo.gl/maps/5rwDNwHh2xL2">Mozilla Paris</a>,
+          </address>
+        </p>
+        <p>
+          <address title="Address">
+            <a href="https://goo.gl/maps/jBwkRTG2KSv">Epitech Campus Parmentier</a>,
+          </address>
+        </p>
+        <p>
+          <address title="Address">
+            and <a href="https://goo.gl/maps/JveifFJtQ882">Snips Paris</a>
+          </address>
+        </p>
+      </div>
+    </div>
+    <div class="itemgroup">
       <div>
         <p class="desc">Impl Days</p>
         <p>
@@ -44,17 +65,19 @@ bodytags: with-hero
           </p>
         </p>
       </div>
-
       <div class="location">
-        <p class="desc">Impl Days Location</p>
+        <p class="desc">Impl Days Locations</p>
         <p>
           <address title="Address">
-            <a href="/location/#impl_days">{{site.location.impl_days}}</a><br />
-            {{site.location.city}}, {{site.location.country}}<br/>
+            <a href="/location/#impl_days">{{site.location.impl_days}}</a>,
+          </address>
+        </p>
+        <p>
+          <address title="Address">
+            and <a href="/location/#impl_days">{{site.location.impl_days_overflow}}</a>
           </address>
         </p>
       </div>
-
     </div>
 
   </section>

@@ -116,6 +116,8 @@ If you just want a ticket to go to a specific station once, then the price can s
 
 This time we will be hosted by [Mozilla Paris](https://wiki.mozilla.org/Paris) at `16bis Boulevard Montmartre, 75009 Paris, France`.
 
+Due to the increased number of interested attendees, we will also have space available at [Formeret Espace Cléry](http://www.formeret.fr/en/clery.htm) at `17, rue de Cléry, 75002 Paris`. It is at 10 minute walk away from the Mozilla Paris office.
+
 For more information you can read [about `impl Days`](/about_impl_days/).
 
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3402649164199834%2C48.87043834993238%2C2.342174649238587%2C48.87350454058211&amp;layer=mapnik&amp;marker=48.871971468746175%2C2.3412197828292847" style="border: 1px solid black"></iframe>
