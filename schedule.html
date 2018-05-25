@@ -8,11 +8,10 @@ title: Schedule
   <section>
     <h1>RustFest {{site.location.city}} {{site.dates.year}} - Schedule {% include icons/calendar.svg %}</h1>
     <a href="/talks">☰ List of Speakers</a>
-    <h2>Location: <a href="/location/">{{site.location.venue}}, 199 bis, rue Saint-Martin, 75003 Paris</a>.</h2>
+    <!--<h2>Location: <a href="/location/">{{site.location.venue}}, 199 bis, rue Saint-Martin, 75003 Paris</a>.</h2>-->
   </section>
 </div>
 
+{% include_relative timetable_sunday.html %}
 
 {% include_relative timetable_saturday.html %}
-
-{% include_relative timetable_sunday.html %}
