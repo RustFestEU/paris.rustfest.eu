@@ -1,0 +1,315 @@
+<schedule>
+  <version>1.0</version>
+  <conference>
+    <title>RustFest Paris 2018</title>
+    <acronym>rustfest18</acronym>
+    <days>1</days>
+    <start>2018-05-26</start>
+    <end>2018-05-26</end>
+    <timeslot_duration>0:05</timeslot_duration>
+  </conference>
+  <day index="1" date="2018-05-26" start="2018-05-26T09:20:00" end="2018-05-26T17:50:00">
+    <room name="Auditorium">
+      <event guid="33a78b77-a1fa-5bf8-a719-15a8663593dd" id="1">
+        <date>2018-05-26T09:20:00</date>
+        <start>09:20</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-1-learning_how_to_learn</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Learning how to Learn</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>A good education can take many different shapes, sizes, forms. Oftentimes, the most profound educations don’t even happen in a classroom. And yet, they all seem to have one thing in common: they teach you how to learn. Being able to learn new things is an empowering skills, especially for those of us working in the ever-changing, fast-paced tech industry. But how can we teach ourselves this skill? Together, we’ll explore one of the world’s most well-known and deeply-loved techniques, which we can use to learn many new things, tech-related and not!</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="1">Vaidehi Joshi</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="69d9379b-5f4d-53c7-a03a-4db98f105781" id="2">
+        <date>2018-05-26T10:05:00</date>
+        <start>10:05</start>
+        <duration>0:30</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-2-rustls_modern_faster_safer_tls</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>rustls: modern, faster, safer TLS</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>rustls is an open-source Transport Level Security (TLS) stack written in safe Rust. This talk reviews the current state of TLS support in the Rust ecosystem, and the design choices taken in rustls.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="2">Joe Birr-Pixton</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="1adcd4eb-7655-5f62-9917-add6bf2b2eee" id="3">
+        <date>2018-05-26T11:00:00</date>
+        <start>11:00</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-3-immutable_data_structures_and_why_you_want_them</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Immutable Data Structures and why You want them</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>There’s a discrepancy between the careful attention to mutability and immutability in Rust itself and the data structures available in the standard library. The only way to update a Vec with an immutable ref is to clone it first, which could get expensive. But what else can you do?  Turns out there’s a number of data structures out there that make it cheap and easy to do immutable copies and updates. Some are so simple it’s ridiculous, some are anything but, and we’re going to dive into some of the more useful ones, how they work, why you should care, and how to best implement them in Rust.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="3">Bodil Stokke</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="069a6809-2727-55c7-b584-03776939ee96" id="4">
+        <date>2018-05-26T11:35:00</date>
+        <start>11:35</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-4-yew_a_rust_webassembly_framework_for_client_side_web_apps</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Yew a Rust+WebAssembly framework for client-side web apps</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>This is a talk about the architecture of yew — a Rust framework for frontend development, inspired by Elm and ReactJS and designed for creating single-page webapps with Rust. You will get to know how it was created: wasm compilation issues, JSX-like templates created with a pure Rust macro, how lifetime rules helps to avoid copying of the model, and how to create a framework without a garbage collector to compete in the JavaScript world.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="4">Denis Kolodin</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="7c66d3ba-35e9-52ed-9cdd-6266ee1ca114" id="5">
+        <date>2018-05-26T12:10:00</date>
+        <start>12:10</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-5-a_rust_crate_that_also_quacks_like_a_modern_c_library</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>A Rust Crate that also quacks like a modern C++ Library</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>In Firefox 56, the encoding_rs character encoding conversion crate replaced Firefox’s previous encoding conversion library that was written in C++. This talk examines the API design characteristics that allowed the Rust API of encoding_rs to be mapped to an idiomatic C API and how it was possible to re-create an almost exact modern C++ analog of the Rust API on top of the C API. Rather than trying to cover the mapping of an arbitrary Rust API to C++, this talk focuses on patterns that are easy to map to C++ to help others to aim for such patterns when bringing Rust to C++ code bases.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="5">Henri Sivonen</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="285f1241-3400-50d1-9d5d-dbaeb272dabe" id="6">
+        <date>2018-05-26T12:45:00</date>
+        <start>12:45</start>
+        <duration>0:15</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-6-scalable_networking_with_rust</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Scalable Networking with Rust</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>Real-time networking applications becoming more popular, but building backend systems is challenging in terms of memory and cpu efficiency. This is a story about how at TreeScale (github.com/treescale) we got 10X+ memory and cpu efficiency using Rust MIO as a main network TCP/UNIX handling system with thread pools.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="6">Tigran Bayburtsyan</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="1cde6c4f-3c96-5b27-ba65-a02fbe4138a3" id="7">
+        <date>2018-05-26T14:00:00</date>
+        <start>14:00</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-7-vector_graphics_rendering_on_the_gpu_in_rust_with_lyon</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Vector graphics rendering on the GPU in Rust with lyon</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>Lyon is a collection of low level tools to render 2D vector graphics on the GPU, useful for games as well as other applications benefiting from vector graphics (map renderers, web browsers, graphical user interfaces, creative coding, etc.). This presentation will start with a very short overview of the type of functionalities lyon provides, followed by a deep dive into how lyon approaches rendering and how it relates to other GPU based vector graphics rendering tools.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="7">Nicolas Silva</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="d6e55ac4-08b0-5c60-a88c-daa5496dfbf6" id="8">
+        <date>2018-05-26T14:35:00</date>
+        <start>14:35</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-8-building_reliable_infrastructure_in_rust</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Building Reliable Infrastructure in Rust</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>Tyler Neely      After years of getting whooped by bugs at scale at various North American infrastructure companies, Tyler moved to Berlin where he spends his days reading papers, finding bugs in complex systems, and building Sled - a modern embedded database for the Rust ecosystem. He believes on-call people should sleep as long as they want.      The wild success of testing tools like Jepsen is a wake-up call that we’re approaching systems engineering from a fundamentally bug-prone perspective. Why don’t we find these devastating bugs on our laptops before opening pull requests? Rust’s compiler gives us wonderful guarantees about memory safety, but as soon as we open files or sockets, all hell seems to break loose.      This talk will show you how to apply techniques from the distributed systems and database worlds in a way that maximizes the number of bugs found per cpu cycle, and reduce the amount of bias that we hardcode into our tests.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="8">Tyler Neely</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="80a31329-7abb-5eb2-b6e3-097bba8f5af2" id="9">
+        <date>2018-05-26T15:10:00</date>
+        <start>15:10</start>
+        <duration>0:30</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-9-bringing_intel_sgx_to_the_rust_ecosystem</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Bringing Intel SGX to the Rust Ecosystem</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>In this talk, we introduce Rust SGX SDK (future code name MesaLock SGX), which can protect secrets from most attacks by combining the power of Intel SGX and Rust. Intel SGX is the next generation trusted computing technique supported in almost all recent Intel CPUs. It provides strong security guarantees and uses a completely different os/threading model, but lacks memory safety guarantees. We show how we ported Rust std and a series of fundamental and popular Rust crates into the Rust-SGX world. What’s more, we support Xargo by providing a new target platform as x86_64-unknown-linux-sgx.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="9">Yu Ding</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="41ebd647-9d5f-5779-9dba-3d3623b673bb" id="10">
+        <date>2018-05-26T16:00:00</date>
+        <start>16:00</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-10-a_quic_future_in_rust</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>A QUIC future in Rust</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>Once HTTP/2 was standardized in 2015, the IETF started work on an even faster iteration of HTTP, based on QUIC: the Quick UDP Internet Connections protocol. The QUIC community is getting ever closer to standardizing it. While we have great HTTP and HTTP/2 implementations in Rust already, this talk discusses an effort to implement QUIC in pure Rust, based on the futures ecosystem.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="10">Dirkjan Ochtman</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="6d6e883d-b0b9-5c23-9d05-14686411da58" id="11">
+        <date>2018-05-26T16:35:00</date>
+        <start>16:35</start>
+        <duration>0:35</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-11-monotron_making_a_80s_style_computer_with_a_20_dev_kit</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Monotron: Making a 80s style computer with a $20 dev kit</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>I missed the simplicity of of computers like the C64 and the Apple 2 and I wondered if I could recreate something like that, but using the Cortex M4 devboard on my desk and a handful of resistors. Can you generate VGA without a video chip? Can you render text without enough RAM for a framebuffer? Can you read from a PS/2 keyboard? Can you do it all in Rust, and run tests on an actual PC? Will it run fast enough to be useful? </abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="12">Jonathan Pallant</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+      <event guid="14791f64-20b0-59c0-b765-3649e7b66c04" id="12">
+        <date>2018-05-26T17:10:00</date>
+        <start>17:10</start>
+        <duration>0:40</duration>
+        <room>Auditorium</room>
+        <slug>rustfest18-12-supercharging_rust_communities</slug>
+        <recording>
+          <license>Creative Commons Attribution-NonCommercial 3.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Supercharging Rust Communities</title>
+        <language>en</language>
+        <subtitle />
+        <track />
+        <type />
+        <abstract>Ever wondered what makes Rust successful? This talk is about growing Rust communities worldwide and emulating values and ideals that have made the Rust project a success. Come and learn how these values and ideals have influenced Rust Nairobi’s journey and how you can use them as guidelines for your community.</abstract>
+        <description />
+        <logo />
+        <persons>
+          <person id="13">Matt Gathu</person>
+        </persons>
+        <links />
+        <attachments />
+        <video_download_url />
+      </event>
+    </room>
+  </day>
+</schedule>
