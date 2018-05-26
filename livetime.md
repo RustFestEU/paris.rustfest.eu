@@ -1,11 +1,14 @@
 ---
 layout: default
 permalink: /livetime/
-title: 'RustFest livetime
+title: "'RustFest livetime"
 ---
 
-<section>
-<h2>Livetime!</h2>
+<div class='popout'>
+  <section>
+    <h1>Livetime!</h1>
+  </section>
+</div>
 
 <div style="text-align: center;">
 <iframe src="https://streaming.media.ccc.de/rustfest2018/embed/auditorium/dash/native" width="1024" height="576" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe>
