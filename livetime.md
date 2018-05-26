@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /livetime/
-title: RustFest live time
+title: 'RustFest livetime
 ---
 
 <section>
