@@ -25,4 +25,3 @@ title: "'RustFest livetime"
 
 <p>Thank you to <a href="https://www.rrbone.net/">RRBone</a> and <a href="https://c3voc.de/">the C3VOC</a> for making this happen!</p>
 
-</section>
