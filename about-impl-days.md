@@ -37,7 +37,7 @@ the event here in Paris.
 
 ## `impl Days` Paris
 
-The event is being hosted at <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}}</a>.
+The event is being hosted at <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}} and {{site.location.impl_days_overflow}}</a>.
 
 `impl Days` is a great chance to work directly with other Rust
 enthusiasts. The Rust project is supported by volunteers across the
@@ -54,6 +54,8 @@ You do not need to buy a separate ticket for `impl Days`; your Rust
 Fest ticket will suffice. However, the `impl Days` venue,
 <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days}}</a>,
 is more limited in space than the main RustFest venue.
+Due to the increased number of interested attendees, we will also have space available at <a href="/location/#impl-days-may-28th-and-29th">{{site.location.impl_days_overflow}}</a> at `17, rue de Cléry, 75002 Paris`.
+It is at 10 minute walk away from the Mozilla Paris office.
 
 Thus, everyone who plans to attend `impl Days` should tell us
 explicitly on the online questionnaire built into the RustFest ticket.
