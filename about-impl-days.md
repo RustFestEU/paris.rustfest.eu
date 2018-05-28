@@ -13,6 +13,12 @@ permalink: /about_impl_days/
 </div>
 
 <section markdown="1">
+## Todays Info
+{% include_relative impl_days_room_info.html %}
+</section>
+
+<section markdown="1">
+## about:impl_days
 
 `impl Days` is a sibling event of RustFest&lt;Paris&gt;, sponsored by
 Mozilla and 1aim. `impl Days` is an open-ended time for Rust contributors to
