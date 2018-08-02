@@ -3,9 +3,6 @@ layout: blue_page
 permalink: /accessibility/
 title: Accessibility Statement
 ---
-
-*You may also be interested in the [**venue accessibility statement**](http://www.focusterra.ethz.ch/en/your-visit.html).*
-
 RustFest is an inclusive conference and as such strives to be accessible to everyone. This includes:
 
 * Offering significantly discounted tickets for concession holders.
